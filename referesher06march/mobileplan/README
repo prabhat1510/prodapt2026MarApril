@@ -1,0 +1,33 @@
+Mobile Plan Manager
+Create a class that manages mobile subscription plans.
+Each plan has:
+•	plan_id
+•	plan_name
+•	monthly_price
+•	data_limit_gb
+
+Operations
+•	add a plan
+•	update plan price
+•	retrieve plan details
+•	list plans cheaper than a given price
+•	find the highest data plan
+
+Validations
+•	price must be positive
+•	data limit must be non-negative
+•	plan_id must be unique
+Skills Practiced
+•	designing class structure
+•	storing records in dictionaries
+•	writing retrieval and filtering methods
+•	input validation
+Example Design Thinking
+Students should first think:
+class PlanManager
+    plans dictionary
+    add_plan()
+    update_price()
+    get_plan()
+    find_best_data_plan()
+
