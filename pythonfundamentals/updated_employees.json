@@ -3,18 +3,18 @@
         "id": "101",
         "name": "John",
         "department": "IT",
-        "salary": "70000"
+        "salary": 77000.0
     },
     {
         "id": "102",
         "name": "Alice",
         "department": "HR",
-        "salary": "60000"
+        "salary": 66000.0
     },
     {
         "id": "103",
         "name": "Bob",
         "department": "Finance",
-        "salary": "65000"
+        "salary": 71500.0
     }
 ]
