@@ -1,0 +1,4 @@
+This is written using file handling in python
+Bye Bye !!!Hello all focus please
+Otherwise mom will scold you all !!!Hello all focus please
+Otherwise mom will scold you all !!!Lunch Time

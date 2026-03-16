@@ -1,0 +1,4 @@
+customer_id,name,plan,data_usage
+C101,Ravi,Premium,120
+C102,John,Basic,40
+C103,Anita,Gold,80
