@@ -7,4 +7,4 @@ class Bond(Asset):
         self.interest_rate = interest_rate
 
     def calculate_value(self, quantity):
-        return self.price * quantity
+        return self.price * quantity * self.interset_rate

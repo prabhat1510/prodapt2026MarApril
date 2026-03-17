@@ -5,8 +5,8 @@ from mutualfund import MutualFund
 def main():
 
     manager = PortfolioManager()
-
-    manager.add_market_asset(Stock("AAPL", "Apple", 180))
+    stock1=Stock("AAPL", "Apple", 180)
+    manager.add_market_asset(stock1)
     manager.add_market_asset(Stock("TSLA", "Tesla", 250))
     manager.add_market_asset(MutualFund("VFIAX", "Vanguard 500", 400))
 
@@ -53,7 +53,12 @@ def main():
             elif choice == "6":
 
                 break
-
+        except InsufficientUnitsException as iue:
+            print("Error:", iue)
+        except AssetNotFoundException as anf:
+            print("Error:", anf)
+        except DuplicateAssetException as dae:
+            print("Error:", dae)
         except Exception as e:
             print("Error:", e)
 

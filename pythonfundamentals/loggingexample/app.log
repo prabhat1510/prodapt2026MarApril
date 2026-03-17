@@ -1,0 +1,10 @@
+2026-03-17 14:26:58,419 - MyLogger - INFO - This is line 0 of the log file.
+2026-03-17 14:26:59,435 - MyLogger - INFO - This is line 1 of the log file.
+2026-03-17 14:27:00,437 - MyLogger - INFO - This is line 2 of the log file.
+2026-03-17 14:27:01,437 - MyLogger - INFO - This is line 3 of the log file.
+2026-03-17 14:27:02,438 - MyLogger - INFO - This is line 4 of the log file.
+2026-03-17 14:27:03,439 - MyLogger - INFO - This is line 5 of the log file.
+2026-03-17 14:27:04,440 - MyLogger - INFO - This is line 6 of the log file.
+2026-03-17 14:27:05,441 - MyLogger - INFO - This is line 7 of the log file.
+2026-03-17 14:27:06,441 - MyLogger - INFO - This is line 8 of the log file.
+2026-03-17 14:27:07,442 - MyLogger - INFO - This is line 9 of the log file.
