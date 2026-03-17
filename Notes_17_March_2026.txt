@@ -1,0 +1,41 @@
+http://www.bookapp.com/bookapi/book/111   --- Data bookId in path variable
+http://www.bookapp.com/bookapi/book?bookId=111 --- As a query string or parameter
+
+?bookId=111 --- Query String
+Parameter is bookId
+
+GET -- get some resource ,, Retrieve
+POST -- create resource      Create
+PUT -- update an existing resource, if doesn't exists it will creat , Update
+DELETE delete a resource
+PATCH -- partially modified
+
+
+
+create a folder with the name of projec
+ for example: basicapi
+Open basicapi in VS code
+Open terminal 
+Create virtual env using commnad - >
+	python -m venv venv
+Activate venv using command
+	venv\Scripts\activate.bat
+
+Create requirements.txt
+Edit requirements.txt and enter dependent libraries
+	for ex: fastapi
+			uvicorn
+	Note: uvicorn is an Aysnchronous Server Gateway Interface(ASGI) to run application
+
+Create main.py
+Write the logic and save it.
+Go to terminal and run below command to start the application
+	uvicorn main:app --reload
+	
+	
+For Tomorrow you all have to read :
+What is REST?
+What is Restful API?
+What is the difference between stateless and stateful requests?
+What is RMM?
+What is URL,URI and URN?

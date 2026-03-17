@@ -1,3 +1,5 @@
 /node_modules/
 /personal/
 *.xlsx
+venv/
+__pycache__/
