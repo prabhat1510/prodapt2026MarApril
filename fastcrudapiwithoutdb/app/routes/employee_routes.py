@@ -24,17 +24,16 @@ def get_employee(employee_id: int):
     employee = employee_service.get_employee(employee_id)
     return success_response(employee)
 
-    
-'''
+
+
 # UPDATE
-@router.put("/{user_id}")
-def update_user(user_id: int, user: UserUpdate):
-    updated_user = user_service.update_user(user_id, user)
-    return success_response(updated_user, "User updated")
+@router.put("/{employee_id}")
+def update_employee(employee_id: int, employee: EmployeeUpdate):
+    updated_employee = employee_service.update_employee(employee_id, employee)
+    return success_response(updated_employee, "employee updated")
 
 # DELETE
 @router.delete("/{user_id}")
 def delete_user(user_id: int):
     user_service.delete_user(user_id)
     return success_response(message="User deleted")
-'''

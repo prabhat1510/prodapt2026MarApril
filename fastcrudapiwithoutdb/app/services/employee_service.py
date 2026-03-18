@@ -17,7 +17,7 @@ def get_employee(employee_id: int):
         if employee["id"] == employee_id:
             return employee
     raise EmployeeNotFoundException("employee not found")
-'''
+
 def update_employee(employee_id: int, update_data):
     for employee in employees_db:
         if employee["id"] == employee_id:
@@ -32,4 +32,3 @@ def delete_employee(employee_id: int):
             employees_db.remove(employee)
             return
     raise EmployeeNotFoundException("Employee not found")
-'''
