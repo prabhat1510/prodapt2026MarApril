@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field, EmailStr
 from typing import Optional
 
-class Employee(BaseModel):
+class EmployeeCreate(BaseModel):
     name: str = Field(..., min_length=2, max_length=50)
     email: EmailStr
     age: int = Field(..., gt=0)
