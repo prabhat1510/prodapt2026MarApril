@@ -1,7 +1,7 @@
 import app.database as db
 from app.exceptions import StudentNotFoundException
 from app.utils.loggers import logger
-from app.models import Student
+from app.models import Student, StudentUpdate
 
 # create a new student and assign an ID
 def create_student(student_data):
@@ -55,5 +55,15 @@ def delete_student(id: int):
     # Calling the database function to delete the student
     student = db.delete_student(id)
     logger.info(f"Student data deleted successfully with id: {id}")
+    # Returning the student model or object to the calling function
+    return student
+
+# PATCH
+# PATCH /students/{id}
+# This will partially update the student with the given id
+def patch_student(id: int, student_data: StudentUpdate):
+    # Calling the database function to patch the student
+    student = db.patch_student(id, student_data)
+    logger.info(f"Student data patched successfully with id: {id}")
     # Returning the student model or object to the calling function
     return student

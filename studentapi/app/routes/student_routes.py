@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Query
-from app.models import Student,StudentResponse
+from app.models import Student, StudentResponse, StudentUpdate
 from app.services import student_service
 from app.utils.response import success_response
 from app.utils.loggers import logger
@@ -60,4 +60,13 @@ def delete_student(id: int):
     # Returning a success response with the students data
     return success_response(student)
 
+#PATCH
+# PATCH /students/{id}
+# This will update the student with the given id
+@router.patch("/{id}")
+def patch_student(id: int, student: StudentUpdate):
+    # Calling the service function to update the student
+    student = student_service.patch_student(id, student)
+    # Returning a success response with the students data
+    return success_response(student)
 

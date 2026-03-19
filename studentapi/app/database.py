@@ -1,4 +1,5 @@
 import os
+from app.exceptions import StudentNotFoundException
 
 students_db = []
 student_id_counter = 1
@@ -36,7 +37,6 @@ def write_students_to_csv():
             file.write(f"{student['id']}, {student['name']}, {student['email']}, {student['age']}, {student['grade']}\n")
 
 def get_student(id: int):
-    from app.exceptions import StudentNotFoundException
     read_students_from_csv()
     for student in students_db:
         if student["id"] == id:
@@ -44,7 +44,6 @@ def get_student(id: int):
     raise StudentNotFoundException(f"Student with id {id} not found")
 
 def update_student(id: int, student_data):
-    from app.exceptions import StudentNotFoundException
     read_students_from_csv()
     for student in students_db:
         if student["id"] == id:
@@ -57,11 +56,22 @@ def update_student(id: int, student_data):
     raise StudentNotFoundException(f"Student with id {id} not found")
 
 def delete_student(id: int):
-    from app.exceptions import StudentNotFoundException
     read_students_from_csv()
     for student in students_db:
         if student["id"] == id:
             students_db.remove(student)
+            write_students_to_csv()
+            return student
+    raise StudentNotFoundException(f"Student with id {id} not found")
+
+def patch_student(id: int, student_data):
+    read_students_from_csv()
+    for student in students_db:
+        if student["id"] == id:
+            # Only update fields that were actually provided (not None)
+            update_data = student_data.model_dump(exclude_unset=True)
+            for key, value in update_data.items():
+                student[key] = value
             write_students_to_csv()
             return student
     raise StudentNotFoundException(f"Student with id {id} not found")

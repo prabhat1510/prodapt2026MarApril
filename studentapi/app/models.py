@@ -14,3 +14,9 @@ class StudentResponse(BaseModel):
     email:EmailStr
     age: int
     grade: Optional[str]
+
+class StudentUpdate(BaseModel):
+    name: Optional[str] = Field(None, min_length=2, max_length=50)
+    email: Optional[EmailStr] = None
+    age: Optional[int] = Field(None, gt=6)
+    grade: Optional[str] = Field(None, min_length=1, max_length=2)
