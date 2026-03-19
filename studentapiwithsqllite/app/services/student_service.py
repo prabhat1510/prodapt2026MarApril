@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from app.repository.student_repository import StudentRepository
+from app.repositories.student_repository import StudentRepository
 from app.utils.exceptions import StudentNotFoundException
 
 class StudentService:

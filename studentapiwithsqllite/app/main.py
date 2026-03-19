@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from app.core.config import settings
 from app.core.logger import setup_logger
 from app.db.database import Base, engine
-from app.api.student_routes import router as student_router
+from app.api.routes.student_routes import router as student_router
 
 # Setup
 setup_logger()
