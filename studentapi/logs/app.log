@@ -1,0 +1,11 @@
+2026-03-19 10:20:55,679 | INFO | fastapi_app | student_routes.py:16 | Inside employee routes
+2026-03-19 10:21:34,545 | INFO | fastapi_app | student_routes.py:16 | Inside employee routes
+2026-03-19 10:21:34,545 | INFO | fastapi_app | student_service.py:21 | Student data created successfully with id :1
+2026-03-19 10:23:41,561 | INFO | fastapi_app | student_routes.py:16 | Inside employee routes
+2026-03-19 10:23:41,561 | INFO | fastapi_app | student_service.py:21 | Student data created successfully with id :1
+2026-03-19 10:37:43,896 | INFO | fastapi_app | student_routes.py:16 | Inside employee routes
+2026-03-19 10:37:43,896 | INFO | fastapi_app | student_service.py:19 | Student data created successfully with id: 1
+2026-03-19 10:38:04,771 | INFO | fastapi_app | student_routes.py:16 | Inside employee routes
+2026-03-19 10:38:04,774 | INFO | fastapi_app | student_service.py:19 | Student data created successfully with id: 2
+2026-03-19 10:48:56,566 | INFO | fastapi_app | student_service.py:35 | Student data retrieved successfully with id: 2
+2026-03-19 10:49:27,296 | INFO | fastapi_app | student_service.py:46 | Student data updated successfully with id: 2

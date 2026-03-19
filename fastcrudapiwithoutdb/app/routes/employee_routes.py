@@ -3,11 +3,13 @@ from app.models import EmployeeCreate,EmployeeResponse, EmployeeUpdate
 from app.services import employee_service
 from app.utils.response import success_response
 
+
 router = APIRouter(prefix="/employees", tags=["Employees"])
 
 # CREATE
 @router.post("/", response_model=EmployeeResponse)
 def create_employee(employee: EmployeeCreate):
+    #logger.info("Inside employee routes")
     return employee_service.create_employee(employee)
 
 # READ ALL + Query Param

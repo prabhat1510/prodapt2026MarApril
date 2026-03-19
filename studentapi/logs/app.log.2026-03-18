@@ -1,0 +1,5 @@
+2026-03-18 16:33:41,036 | INFO | fastapi_app | student_routes.py:16 | Inside employee routes
+2026-03-18 16:36:45,200 | INFO | fastapi_app | student_routes.py:16 | Inside employee routes
+2026-03-18 16:37:03,718 | INFO | fastapi_app | student_routes.py:16 | Inside employee routes
+2026-03-18 16:51:02,446 | INFO | fastapi_app | student_routes.py:16 | Inside employee routes
+2026-03-18 16:51:02,446 | INFO | fastapi_app | student_service.py:18 | Student data created successfully with id :{'name': 'Sujal', 'email': 'sujal@mukesh.com', 'age': 24, 'grade': 'A+', 'id': 1}

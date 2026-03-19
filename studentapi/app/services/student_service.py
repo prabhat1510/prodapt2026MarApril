@@ -1,22 +1,59 @@
-from app.database import students_db, student_id_counter
+import app.database as db
 from app.exceptions import StudentNotFoundException
+from app.utils.loggers import logger
+from app.models import Student
 
- #create a new student and assign an ID
+# create a new student and assign an ID
 def create_student(student_data):
-    
-    #Accessing global variables
-    global student_id_counter
-   
-    #Creating a dictionay from student_data model
+
+    # Creating a dictionary from student_data model
     student = student_data.dict()
-    #Adding new key:value to the dictionary
-    student["id"] = student_id_counter
-    #Adding the student dictionary to list of students_db
-    students_db.append(student)
-    #Incrementing student id counter
-    student_id_counter += 1
-    #returning the student model or object to the calling function
+    # Adding new key:value to the dictionary
+    student["id"] = db.student_id_counter
+    # Adding the student dictionary to list of students_db
+    db.students_db.append(student)
+    # Incrementing student id counter
+    db.student_id_counter += 1
+
+    # Write updated data to CSV
+    db.write_students_to_csv()
+    logger.info(f"Student data created successfully with id: {student['id']}")
+    # returning the student model or object to the calling function
     return student
 
 def get_all_students():
-    return students_db
+    db.read_students_from_csv()
+    return db.students_db
+
+
+# READ BY ID
+# GET /students/{id}
+# This will return the student with the given id
+def get_student(id: int):
+    # Calling the database function to get the student
+    student = db.get_student(id)
+    logger.info(f"Student data retrieved successfully with id: {id}")
+    # Returning the student model or object to the calling function
+    return student
+
+
+# UPDATE
+# PUT /students/{id}
+# This will update the student with the given id
+def update_student(id: int, student_data: Student):
+    # Calling the database function to update the student
+    student = db.update_student(id, student_data)
+    logger.info(f"Student data updated successfully with id: {id}")
+    # Returning the student model or object to the calling function
+    return student
+
+
+# DELETE
+# DELETE /students/{id}
+# This will delete the student with the given id
+def delete_student(id: int):
+    # Calling the database function to delete the student
+    student = db.delete_student(id)
+    logger.info(f"Student data deleted successfully with id: {id}")
+    # Returning the student model or object to the calling function
+    return student
