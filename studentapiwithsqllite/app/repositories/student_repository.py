@@ -21,8 +21,8 @@ class StudentRepository:
 
     @staticmethod
     def delete(db: Session, student_id: int):
-        student = db.query(Student).filter(Studentser.id == student_id).first()
+        student = db.query(Student).filter(Student.id == student_id).first()
         if student:
             db.delete(student)
             db.commit()
-        return user
+        return student

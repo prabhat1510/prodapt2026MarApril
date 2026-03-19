@@ -25,3 +25,10 @@ class StudentService:
         if not student:
             raise StudentNotFoundException("Student not found")
         return student
+
+    @staticmethod
+    def update_student(db: Session, student_id: int, student):
+        student = StudentRepository.update(db, student_id, student)
+        if not student:
+            raise StudentNotFoundException("Student not found")
+        return student
