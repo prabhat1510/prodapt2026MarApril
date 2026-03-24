@@ -1,0 +1,11 @@
+let city = " Rames waram "
+console.log(city.length)
+console.log(city.charAt(5))
+console.log(city.charCodeAt(1))
+console.log(city.toUpperCase())
+console.log(city.toLowerCase())
+console.log(city.indexOf("r"))
+console.log(city.indexOf("a"))
+console.log(city.indexOf("r"))
+console.log(city.trim())
+console.log(city.slice(6))

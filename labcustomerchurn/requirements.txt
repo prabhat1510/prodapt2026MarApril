@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+seaborn
+fastapi
+uvicorn
+sqlalchemy
+pydantic[email]
+pymysql
