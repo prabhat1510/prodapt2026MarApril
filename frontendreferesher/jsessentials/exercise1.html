@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>List of String </title>
+</head>
+
+<body>
+    <h2>Fruits List</h2>
+    <ul id="myList"></ul>
+    <script>
+        // Step 1: Create an array of strings
+        let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+        // Step 2: Get the UL element
+        let list = document.getElementById("myList");
+        // Step 3: Loop through array and create list items
+        fruits.forEach(function (item) {
+            let li = document.createElement("li");
+            li.textContent = item;
+            list.appendChild(li);
+        });
+    </script>
+
+</html>
