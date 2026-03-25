@@ -13,6 +13,6 @@ function App() {
       <CustomerComponent />
     </>
   )
-}
+}c
 
 export default App
