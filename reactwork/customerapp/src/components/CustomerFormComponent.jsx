@@ -1,43 +1,47 @@
 import { useState } from "react";
-import CustomerListComponent from "./CustomerListComponent";
 
-const CustomerFormComponent = () => {
+
+const CustomerFormComponent = ({ onAddCustomer, customers }) => {
 
     const [customer, setCustomer] = useState({
         name: "",
         email: "",
-        contact: "",
-        accountType: ""
+        phone: "",
     });
 
-    const [customers, setCustomers] = useState([]); // array
-
     const handleChange = (e) => {
-        console.log("e.target.name-->", e.target.name);
-        console.log("e.target.value-->", e.target.value);
         setCustomer({ ...customer, [e.target.name]: e.target.value });
     }
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        
+        // Ensure customers list exists to find length
+        const nextId = (customers && customers.length > 0) 
+            ? Math.max(...customers.map(c => c.id)) + 1 
+            : 1;
 
-        //Add new customer to list
-        setCustomers([...customers, customer]);
+        const newCustomer = {
+            id: nextId,
+            ...customer
+        }
 
-        console.log(customer);
+        // Send to parent state manager
+        if (onAddCustomer) {
+            onAddCustomer(newCustomer);
+        }
 
-        // reset form
+        // Reset form
         setCustomer({
             name: "",
             email: "",
-            contact: "",
-            accountType: ""
+            phone: "",
         });
     }
 
     return (
         <div className="container">
-            <h1>Customer Form</h1>
+            <h1>Add Customer</h1>
 
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
@@ -63,28 +67,14 @@ const CustomerFormComponent = () => {
                 </div>
 
                 <div className="mb-3">
-                    <label className="form-label">Contact</label>
+                    <label className="form-label">Phone</label>
                     <input
                         type="text"
-                        name="contact"   // IMPORTANT
+                        name="phone"   // IMPORTANT
                         className="form-control"
-                        value={customer.contact}
+                        value={customer.phone}
                         onChange={handleChange}
                     />
-                </div>
-
-                <div className="mb-3">
-                    <label className="form-label">Account Type</label>
-                    <select
-                        name="accountType"   // IMPORTANT
-                        className="form-select"
-                        value={customer.accountType}
-                        onChange={handleChange}
-                    >
-                        <option value="">Select</option>
-                        <option value="savings">Savings</option>
-                        <option value="current">Current</option>
-                    </select>
                 </div>
 
                 <button type="submit" className="btn btn-primary">
@@ -92,8 +82,6 @@ const CustomerFormComponent = () => {
                 </button>
             </form>
 
-            {/* pass array */}
-            <CustomerListComponent customers={customers} />
         </div>
     );
 };

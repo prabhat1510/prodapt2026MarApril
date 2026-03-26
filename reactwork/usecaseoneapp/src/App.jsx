@@ -2,6 +2,7 @@ import HelloWorldComponent from "./components/HelloWorldComponent";
 import HelloMessageComponent from "./components/HelloMessageComponent";
 import LoginComponent from "./components/LoginComponent";
 import Counter from "./components/Counter";
+import CustomerListComponent from "./components/CustomerListComponent";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <HelloMessageComponent personName={name} msg={message} defaultMsg={defaultMsg} />
             {/*<LoginComponent loginDetails={loginDetails} />*/}
             <Counter />
+            <CustomerListComponent />
         </>
     )
 }
