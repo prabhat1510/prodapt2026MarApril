@@ -29,11 +29,11 @@ class CustomerRepository:
 
     @staticmethod
     def update(db: Session, customer_id: int, customer):
-        customer = db.query(Customer).filter(Customer.customer_id == customer_id).first()
-        if customer:
-            customer.name = customer.name
-            customer.email = customer.email
-            customer.phone = customer.phone
+        cust = db.query(Customer).filter(Customer.customer_id == customer_id).first()
+        if cust:
+            cust.name = customer.name
+            cust.email = customer.email
+            cust.phone = customer.phone
             db.commit()
-            db.refresh(customer)
-        return customer
+            db.refresh(cust)
+        return cust

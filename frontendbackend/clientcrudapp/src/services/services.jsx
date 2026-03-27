@@ -6,6 +6,7 @@ const API_URL = "http://localhost:8000";
 export const createCustomer = async (customer) => {
     try {
         const response = await axios.post(`${API_URL}/customers`, customer);
+        console.log("Customer created:", response.data);
         return response.data;
     } catch (error) {
         console.error("Error creating customer:", error);
@@ -15,10 +16,7 @@ export const createCustomer = async (customer) => {
 
 export const getCustomers = async () => {
     try {
-        console.log("Inside getCustomers");
-        console.log(`${API_URL}/customers`)
         const response = await axios.get(`${API_URL}/customers`);
-        console.log(response.data)
         return response.data;
     } catch (error) {
         console.error("Error fetching customers:", error);
