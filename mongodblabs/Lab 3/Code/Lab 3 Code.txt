@@ -1,0 +1,94 @@
+# Creating Different Types of Indexes
+
+db.telecom.createIndex({ customerId: 1 });
+
+db.telecom.createIndex({ customerId: 1, billingCycle: -1 });
+
+db.telecom.createIndex({ tags: 1 });
+
+db.telecom.createIndex({ comments: "text" });
+
+db.telecom.createIndex ({ location: "2dsphere" });
+
+db.telecom.createIndex({ customerId: 1 }, { unique: true });
+
+db.telecom.createIndex({ createdAt: 1 }, { expireAfterSeconds: 3600 });
+
+# Managing Indexes
+
+db.telecom.getIndexes();
+
+db.telecom.dropIndex("Customer_ID_1");
+
+db.telecom.createIndex({ Customer_ID: 1 });
+
+db.telecom.aggregate([{ $indexStats: {} }]);
+
+db.telecom.dropIndexes();
+
+# Understanding Index Performance
+db.telecom.find({ "Subscription.Region": "Asia" }).explain("executionStats");
+
+db.telecom.createIndex({ "Subscription.Region": 1 });
+db.telecom.find({ "Subscription.Region": "Asia" }).explain("executionStats");
+
+db.telecom.stats();
+
+db.telecom.find({ "Subscription.Region": "Asia", "Subscription.Plan": "Premium" }).explain();
+
+db.telecom.insert({ Customer_ID: "CUST_NEW", Customer_Name: "New Customer", Subscription: { Region: "Europe", Plan: "Basic", Monthly_Bill: 40 } });
+
+# Implementing Aggregation Pipelines
+
+db.telecom.aggregate([
+    { $match: { "Subscription.Region": "Asia" } },
+    { $group: { _id: null, averageBill: { $avg: "$Subscription.Monthly_Bill" } } }
+]);
+
+db.telecom.aggregate([
+    { $group: { _id: "$Subscription.Plan", customerCount: { $sum: 1 } } }
+]);
+
+db.telecom.aggregate([
+    { $group: { _id: "$Subscription.Region", maxDataUsage: { $max: "$Subscription.Data_Usage_GB" } } }
+]);
+
+db.telecom.aggregate([
+    { $match: { "Subscription.Plan": "Premium" } },
+    { $sort: { "Subscription.Data_Usage_GB": -1 } }
+]);
+
+db.telecom.aggregate([
+    { $match: { "Subscription.Tenure_Months": { $gt: 12 } } },
+    { $group: { _id: "$Subscription.Region", totalRevenue: { $sum: "$Subscription.Monthly_Bill" } } }
+]);
+
+# Optimizing Aggregation Pipeline Queries
+
+db.telecom.aggregate([
+    { $match: { "Subscription.Region": "North America" } },
+    { $group: { _id: "$Subscription.Plan", averageBill: { $avg: "$Subscription.Monthly_Bill" } } }
+]);
+
+db.telecom.aggregate([
+    { $match: { "Subscription.Plan": "Premium" } },
+    { $project: { "Subscription.Monthly_Bill": 1, "Subscription.Region": 1 } },
+    { $group: { _id: "$Subscription.Region", totalBill: { $sum: "$Subscription.Monthly_Bill" } } }
+]);
+
+db.telecom.aggregate([
+    { $sort: { "Subscription.Tenure_Months": -1 } },
+    { $limit: 10 }
+]);
+
+db.telecom.aggregate([
+    { $sort: { "Subscription.Monthly_Bill": -1 } },
+    { $skip: 10 },
+    { $limit: 5 }
+]);
+
+db.telecom.aggregate([
+    { $group: { _id: "$Subscription.Region", totalDataUsage: { $sum: "$Subscription.Data_Usage_GB" } } },
+    { $project: { _id: 0, Region: "$_id", totalDataUsage: 1 } },
+    { $sort: { totalDataUsage: -1 } }
+]);
