@@ -1,0 +1,1302 @@
+[
+    {
+        "Customer_ID": "CUST001",
+        "Customer_Name": "Customer_1",
+        "Age": 19,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 2,
+            "Plan": "Standard",
+            "Monthly_Bill": 56.1,
+            "Data_Usage_GB": 20.5
+        }
+    },
+    {
+        "Customer_ID": "CUST002",
+        "Customer_Name": "Customer_2",
+        "Age": 20,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 4,
+            "Plan": "Premium",
+            "Monthly_Bill": 57.2,
+            "Data_Usage_GB": 21.0
+        }
+    },
+    {
+        "Customer_ID": "CUST003",
+        "Customer_Name": "Customer_3",
+        "Age": 21,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 6,
+            "Plan": "Basic",
+            "Monthly_Bill": 58.3,
+            "Data_Usage_GB": 21.5
+        }
+    },
+    {
+        "Customer_ID": "CUST004",
+        "Customer_Name": "Customer_4",
+        "Age": 22,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 8,
+            "Plan": "Standard",
+            "Monthly_Bill": 59.4,
+            "Data_Usage_GB": 22.0
+        }
+    },
+    {
+        "Customer_ID": "CUST005",
+        "Customer_Name": "Customer_5",
+        "Age": 23,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 10,
+            "Plan": "Premium",
+            "Monthly_Bill": 60.5,
+            "Data_Usage_GB": 22.5
+        }
+    },
+    {
+        "Customer_ID": "CUST006",
+        "Customer_Name": "Customer_6",
+        "Age": 24,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 12,
+            "Plan": "Basic",
+            "Monthly_Bill": 61.6,
+            "Data_Usage_GB": 23.0
+        }
+    },
+    {
+        "Customer_ID": "CUST007",
+        "Customer_Name": "Customer_7",
+        "Age": 25,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 14,
+            "Plan": "Standard",
+            "Monthly_Bill": 62.7,
+            "Data_Usage_GB": 23.5
+        }
+    },
+    {
+        "Customer_ID": "CUST008",
+        "Customer_Name": "Customer_8",
+        "Age": 26,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 16,
+            "Plan": "Premium",
+            "Monthly_Bill": 63.8,
+            "Data_Usage_GB": 24.0
+        }
+    },
+    {
+        "Customer_ID": "CUST009",
+        "Customer_Name": "Customer_9",
+        "Age": 27,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 18,
+            "Plan": "Basic",
+            "Monthly_Bill": 64.9,
+            "Data_Usage_GB": 24.5
+        }
+    },
+    {
+        "Customer_ID": "CUST010",
+        "Customer_Name": "Customer_10",
+        "Age": 28,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 20,
+            "Plan": "Standard",
+            "Monthly_Bill": 66.0,
+            "Data_Usage_GB": 25.0
+        }
+    },
+    {
+        "Customer_ID": "CUST011",
+        "Customer_Name": "Customer_11",
+        "Age": 29,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 22,
+            "Plan": "Premium",
+            "Monthly_Bill": 67.1,
+            "Data_Usage_GB": 25.5
+        }
+    },
+    {
+        "Customer_ID": "CUST012",
+        "Customer_Name": "Customer_12",
+        "Age": 30,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 24,
+            "Plan": "Basic",
+            "Monthly_Bill": 68.2,
+            "Data_Usage_GB": 26.0
+        }
+    },
+    {
+        "Customer_ID": "CUST013",
+        "Customer_Name": "Customer_13",
+        "Age": 31,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 26,
+            "Plan": "Standard",
+            "Monthly_Bill": 69.3,
+            "Data_Usage_GB": 26.5
+        }
+    },
+    {
+        "Customer_ID": "CUST014",
+        "Customer_Name": "Customer_14",
+        "Age": 32,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 28,
+            "Plan": "Premium",
+            "Monthly_Bill": 70.4,
+            "Data_Usage_GB": 27.0
+        }
+    },
+    {
+        "Customer_ID": "CUST015",
+        "Customer_Name": "Customer_15",
+        "Age": 33,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 30,
+            "Plan": "Basic",
+            "Monthly_Bill": 71.5,
+            "Data_Usage_GB": 27.5
+        }
+    },
+    {
+        "Customer_ID": "CUST016",
+        "Customer_Name": "Customer_16",
+        "Age": 34,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 32,
+            "Plan": "Standard",
+            "Monthly_Bill": 72.6,
+            "Data_Usage_GB": 28.0
+        }
+    },
+    {
+        "Customer_ID": "CUST017",
+        "Customer_Name": "Customer_17",
+        "Age": 35,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 34,
+            "Plan": "Premium",
+            "Monthly_Bill": 73.7,
+            "Data_Usage_GB": 28.5
+        }
+    },
+    {
+        "Customer_ID": "CUST018",
+        "Customer_Name": "Customer_18",
+        "Age": 36,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 36,
+            "Plan": "Basic",
+            "Monthly_Bill": 74.8,
+            "Data_Usage_GB": 29.0
+        }
+    },
+    {
+        "Customer_ID": "CUST019",
+        "Customer_Name": "Customer_19",
+        "Age": 37,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 38,
+            "Plan": "Standard",
+            "Monthly_Bill": 75.9,
+            "Data_Usage_GB": 29.5
+        }
+    },
+    {
+        "Customer_ID": "CUST020",
+        "Customer_Name": "Customer_20",
+        "Age": 38,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 40,
+            "Plan": "Premium",
+            "Monthly_Bill": 77.0,
+            "Data_Usage_GB": 30.0
+        }
+    },
+    {
+        "Customer_ID": "CUST021",
+        "Customer_Name": "Customer_21",
+        "Age": 39,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 42,
+            "Plan": "Basic",
+            "Monthly_Bill": 78.1,
+            "Data_Usage_GB": 30.5
+        }
+    },
+    {
+        "Customer_ID": "CUST022",
+        "Customer_Name": "Customer_22",
+        "Age": 40,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 44,
+            "Plan": "Standard",
+            "Monthly_Bill": 79.2,
+            "Data_Usage_GB": 31.0
+        }
+    },
+    {
+        "Customer_ID": "CUST023",
+        "Customer_Name": "Customer_23",
+        "Age": 41,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 46,
+            "Plan": "Premium",
+            "Monthly_Bill": 80.3,
+            "Data_Usage_GB": 31.5
+        }
+    },
+    {
+        "Customer_ID": "CUST024",
+        "Customer_Name": "Customer_24",
+        "Age": 42,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 48,
+            "Plan": "Basic",
+            "Monthly_Bill": 81.4,
+            "Data_Usage_GB": 32.0
+        }
+    },
+    {
+        "Customer_ID": "CUST025",
+        "Customer_Name": "Customer_25",
+        "Age": 43,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 50,
+            "Plan": "Standard",
+            "Monthly_Bill": 82.5,
+            "Data_Usage_GB": 32.5
+        }
+    },
+    {
+        "Customer_ID": "CUST026",
+        "Customer_Name": "Customer_26",
+        "Age": 44,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 52,
+            "Plan": "Premium",
+            "Monthly_Bill": 83.6,
+            "Data_Usage_GB": 33.0
+        }
+    },
+    {
+        "Customer_ID": "CUST027",
+        "Customer_Name": "Customer_27",
+        "Age": 45,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 54,
+            "Plan": "Basic",
+            "Monthly_Bill": 84.7,
+            "Data_Usage_GB": 33.5
+        }
+    },
+    {
+        "Customer_ID": "CUST028",
+        "Customer_Name": "Customer_28",
+        "Age": 46,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 56,
+            "Plan": "Standard",
+            "Monthly_Bill": 85.8,
+            "Data_Usage_GB": 34.0
+        }
+    },
+    {
+        "Customer_ID": "CUST029",
+        "Customer_Name": "Customer_29",
+        "Age": 47,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 58,
+            "Plan": "Premium",
+            "Monthly_Bill": 86.9,
+            "Data_Usage_GB": 34.5
+        }
+    },
+    {
+        "Customer_ID": "CUST030",
+        "Customer_Name": "Customer_30",
+        "Age": 48,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 60,
+            "Plan": "Basic",
+            "Monthly_Bill": 88.0,
+            "Data_Usage_GB": 35.0
+        }
+    },
+    {
+        "Customer_ID": "CUST031",
+        "Customer_Name": "Customer_31",
+        "Age": 49,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 62,
+            "Plan": "Standard",
+            "Monthly_Bill": 89.1,
+            "Data_Usage_GB": 35.5
+        }
+    },
+    {
+        "Customer_ID": "CUST032",
+        "Customer_Name": "Customer_32",
+        "Age": 50,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 64,
+            "Plan": "Premium",
+            "Monthly_Bill": 90.2,
+            "Data_Usage_GB": 36.0
+        }
+    },
+    {
+        "Customer_ID": "CUST033",
+        "Customer_Name": "Customer_33",
+        "Age": 51,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 66,
+            "Plan": "Basic",
+            "Monthly_Bill": 91.3,
+            "Data_Usage_GB": 36.5
+        }
+    },
+    {
+        "Customer_ID": "CUST034",
+        "Customer_Name": "Customer_34",
+        "Age": 52,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 68,
+            "Plan": "Standard",
+            "Monthly_Bill": 92.4,
+            "Data_Usage_GB": 37.0
+        }
+    },
+    {
+        "Customer_ID": "CUST035",
+        "Customer_Name": "Customer_35",
+        "Age": 53,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 70,
+            "Plan": "Premium",
+            "Monthly_Bill": 93.5,
+            "Data_Usage_GB": 37.5
+        }
+    },
+    {
+        "Customer_ID": "CUST036",
+        "Customer_Name": "Customer_36",
+        "Age": 54,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 72,
+            "Plan": "Basic",
+            "Monthly_Bill": 94.6,
+            "Data_Usage_GB": 38.0
+        }
+    },
+    {
+        "Customer_ID": "CUST037",
+        "Customer_Name": "Customer_37",
+        "Age": 55,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 74,
+            "Plan": "Standard",
+            "Monthly_Bill": 95.7,
+            "Data_Usage_GB": 38.5
+        }
+    },
+    {
+        "Customer_ID": "CUST038",
+        "Customer_Name": "Customer_38",
+        "Age": 56,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 76,
+            "Plan": "Premium",
+            "Monthly_Bill": 96.8,
+            "Data_Usage_GB": 39.0
+        }
+    },
+    {
+        "Customer_ID": "CUST039",
+        "Customer_Name": "Customer_39",
+        "Age": 57,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 78,
+            "Plan": "Basic",
+            "Monthly_Bill": 97.9,
+            "Data_Usage_GB": 39.5
+        }
+    },
+    {
+        "Customer_ID": "CUST040",
+        "Customer_Name": "Customer_40",
+        "Age": 58,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 80,
+            "Plan": "Standard",
+            "Monthly_Bill": 99.0,
+            "Data_Usage_GB": 40.0
+        }
+    },
+    {
+        "Customer_ID": "CUST041",
+        "Customer_Name": "Customer_41",
+        "Age": 59,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 82,
+            "Plan": "Premium",
+            "Monthly_Bill": 100.1,
+            "Data_Usage_GB": 40.5
+        }
+    },
+    {
+        "Customer_ID": "CUST042",
+        "Customer_Name": "Customer_42",
+        "Age": 60,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 84,
+            "Plan": "Basic",
+            "Monthly_Bill": 101.2,
+            "Data_Usage_GB": 41.0
+        }
+    },
+    {
+        "Customer_ID": "CUST043",
+        "Customer_Name": "Customer_43",
+        "Age": 61,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 86,
+            "Plan": "Standard",
+            "Monthly_Bill": 102.3,
+            "Data_Usage_GB": 41.5
+        }
+    },
+    {
+        "Customer_ID": "CUST044",
+        "Customer_Name": "Customer_44",
+        "Age": 62,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 88,
+            "Plan": "Premium",
+            "Monthly_Bill": 103.4,
+            "Data_Usage_GB": 42.0
+        }
+    },
+    {
+        "Customer_ID": "CUST045",
+        "Customer_Name": "Customer_45",
+        "Age": 63,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 90,
+            "Plan": "Basic",
+            "Monthly_Bill": 104.5,
+            "Data_Usage_GB": 42.5
+        }
+    },
+    {
+        "Customer_ID": "CUST046",
+        "Customer_Name": "Customer_46",
+        "Age": 64,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 92,
+            "Plan": "Standard",
+            "Monthly_Bill": 105.6,
+            "Data_Usage_GB": 43.0
+        }
+    },
+    {
+        "Customer_ID": "CUST047",
+        "Customer_Name": "Customer_47",
+        "Age": 65,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 94,
+            "Plan": "Premium",
+            "Monthly_Bill": 106.7,
+            "Data_Usage_GB": 43.5
+        }
+    },
+    {
+        "Customer_ID": "CUST048",
+        "Customer_Name": "Customer_48",
+        "Age": 66,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 96,
+            "Plan": "Basic",
+            "Monthly_Bill": 107.8,
+            "Data_Usage_GB": 44.0
+        }
+    },
+    {
+        "Customer_ID": "CUST049",
+        "Customer_Name": "Customer_49",
+        "Age": 67,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 98,
+            "Plan": "Standard",
+            "Monthly_Bill": 108.9,
+            "Data_Usage_GB": 44.5
+        }
+    },
+    {
+        "Customer_ID": "CUST050",
+        "Customer_Name": "Customer_50",
+        "Age": 18,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 100,
+            "Plan": "Premium",
+            "Monthly_Bill": 55.0,
+            "Data_Usage_GB": 45.0
+        }
+    },
+    {
+        "Customer_ID": "CUST051",
+        "Customer_Name": "Customer_51",
+        "Age": 19,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 102,
+            "Plan": "Basic",
+            "Monthly_Bill": 56.1,
+            "Data_Usage_GB": 45.5
+        }
+    },
+    {
+        "Customer_ID": "CUST052",
+        "Customer_Name": "Customer_52",
+        "Age": 20,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 104,
+            "Plan": "Standard",
+            "Monthly_Bill": 57.2,
+            "Data_Usage_GB": 46.0
+        }
+    },
+    {
+        "Customer_ID": "CUST053",
+        "Customer_Name": "Customer_53",
+        "Age": 21,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 106,
+            "Plan": "Premium",
+            "Monthly_Bill": 58.3,
+            "Data_Usage_GB": 46.5
+        }
+    },
+    {
+        "Customer_ID": "CUST054",
+        "Customer_Name": "Customer_54",
+        "Age": 22,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 108,
+            "Plan": "Basic",
+            "Monthly_Bill": 59.4,
+            "Data_Usage_GB": 47.0
+        }
+    },
+    {
+        "Customer_ID": "CUST055",
+        "Customer_Name": "Customer_55",
+        "Age": 23,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 110,
+            "Plan": "Standard",
+            "Monthly_Bill": 60.5,
+            "Data_Usage_GB": 47.5
+        }
+    },
+    {
+        "Customer_ID": "CUST056",
+        "Customer_Name": "Customer_56",
+        "Age": 24,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 112,
+            "Plan": "Premium",
+            "Monthly_Bill": 61.6,
+            "Data_Usage_GB": 48.0
+        }
+    },
+    {
+        "Customer_ID": "CUST057",
+        "Customer_Name": "Customer_57",
+        "Age": 25,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 114,
+            "Plan": "Basic",
+            "Monthly_Bill": 62.7,
+            "Data_Usage_GB": 48.5
+        }
+    },
+    {
+        "Customer_ID": "CUST058",
+        "Customer_Name": "Customer_58",
+        "Age": 26,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 116,
+            "Plan": "Standard",
+            "Monthly_Bill": 63.8,
+            "Data_Usage_GB": 49.0
+        }
+    },
+    {
+        "Customer_ID": "CUST059",
+        "Customer_Name": "Customer_59",
+        "Age": 27,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 118,
+            "Plan": "Premium",
+            "Monthly_Bill": 64.9,
+            "Data_Usage_GB": 49.5
+        }
+    },
+    {
+        "Customer_ID": "CUST060",
+        "Customer_Name": "Customer_60",
+        "Age": 28,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 0,
+            "Plan": "Basic",
+            "Monthly_Bill": 66.0,
+            "Data_Usage_GB": 50.0
+        }
+    },
+    {
+        "Customer_ID": "CUST061",
+        "Customer_Name": "Customer_61",
+        "Age": 29,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 2,
+            "Plan": "Standard",
+            "Monthly_Bill": 67.1,
+            "Data_Usage_GB": 50.5
+        }
+    },
+    {
+        "Customer_ID": "CUST062",
+        "Customer_Name": "Customer_62",
+        "Age": 30,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 4,
+            "Plan": "Premium",
+            "Monthly_Bill": 68.2,
+            "Data_Usage_GB": 51.0
+        }
+    },
+    {
+        "Customer_ID": "CUST063",
+        "Customer_Name": "Customer_63",
+        "Age": 31,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 6,
+            "Plan": "Basic",
+            "Monthly_Bill": 69.3,
+            "Data_Usage_GB": 51.5
+        }
+    },
+    {
+        "Customer_ID": "CUST064",
+        "Customer_Name": "Customer_64",
+        "Age": 32,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 8,
+            "Plan": "Standard",
+            "Monthly_Bill": 70.4,
+            "Data_Usage_GB": 52.0
+        }
+    },
+    {
+        "Customer_ID": "CUST065",
+        "Customer_Name": "Customer_65",
+        "Age": 33,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 10,
+            "Plan": "Premium",
+            "Monthly_Bill": 71.5,
+            "Data_Usage_GB": 52.5
+        }
+    },
+    {
+        "Customer_ID": "CUST066",
+        "Customer_Name": "Customer_66",
+        "Age": 34,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 12,
+            "Plan": "Basic",
+            "Monthly_Bill": 72.6,
+            "Data_Usage_GB": 53.0
+        }
+    },
+    {
+        "Customer_ID": "CUST067",
+        "Customer_Name": "Customer_67",
+        "Age": 35,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 14,
+            "Plan": "Standard",
+            "Monthly_Bill": 73.7,
+            "Data_Usage_GB": 53.5
+        }
+    },
+    {
+        "Customer_ID": "CUST068",
+        "Customer_Name": "Customer_68",
+        "Age": 36,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 16,
+            "Plan": "Premium",
+            "Monthly_Bill": 74.8,
+            "Data_Usage_GB": 54.0
+        }
+    },
+    {
+        "Customer_ID": "CUST069",
+        "Customer_Name": "Customer_69",
+        "Age": 37,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 18,
+            "Plan": "Basic",
+            "Monthly_Bill": 75.9,
+            "Data_Usage_GB": 54.5
+        }
+    },
+    {
+        "Customer_ID": "CUST070",
+        "Customer_Name": "Customer_70",
+        "Age": 38,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 20,
+            "Plan": "Standard",
+            "Monthly_Bill": 77.0,
+            "Data_Usage_GB": 55.0
+        }
+    },
+    {
+        "Customer_ID": "CUST071",
+        "Customer_Name": "Customer_71",
+        "Age": 39,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 22,
+            "Plan": "Premium",
+            "Monthly_Bill": 78.1,
+            "Data_Usage_GB": 55.5
+        }
+    },
+    {
+        "Customer_ID": "CUST072",
+        "Customer_Name": "Customer_72",
+        "Age": 40,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 24,
+            "Plan": "Basic",
+            "Monthly_Bill": 79.2,
+            "Data_Usage_GB": 56.0
+        }
+    },
+    {
+        "Customer_ID": "CUST073",
+        "Customer_Name": "Customer_73",
+        "Age": 41,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 26,
+            "Plan": "Standard",
+            "Monthly_Bill": 80.3,
+            "Data_Usage_GB": 56.5
+        }
+    },
+    {
+        "Customer_ID": "CUST074",
+        "Customer_Name": "Customer_74",
+        "Age": 42,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 28,
+            "Plan": "Premium",
+            "Monthly_Bill": 81.4,
+            "Data_Usage_GB": 57.0
+        }
+    },
+    {
+        "Customer_ID": "CUST075",
+        "Customer_Name": "Customer_75",
+        "Age": 43,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 30,
+            "Plan": "Basic",
+            "Monthly_Bill": 82.5,
+            "Data_Usage_GB": 57.5
+        }
+    },
+    {
+        "Customer_ID": "CUST076",
+        "Customer_Name": "Customer_76",
+        "Age": 44,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 32,
+            "Plan": "Standard",
+            "Monthly_Bill": 83.6,
+            "Data_Usage_GB": 58.0
+        }
+    },
+    {
+        "Customer_ID": "CUST077",
+        "Customer_Name": "Customer_77",
+        "Age": 45,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 34,
+            "Plan": "Premium",
+            "Monthly_Bill": 84.7,
+            "Data_Usage_GB": 58.5
+        }
+    },
+    {
+        "Customer_ID": "CUST078",
+        "Customer_Name": "Customer_78",
+        "Age": 46,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 36,
+            "Plan": "Basic",
+            "Monthly_Bill": 85.8,
+            "Data_Usage_GB": 59.0
+        }
+    },
+    {
+        "Customer_ID": "CUST079",
+        "Customer_Name": "Customer_79",
+        "Age": 47,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 38,
+            "Plan": "Standard",
+            "Monthly_Bill": 86.9,
+            "Data_Usage_GB": 59.5
+        }
+    },
+    {
+        "Customer_ID": "CUST080",
+        "Customer_Name": "Customer_80",
+        "Age": 48,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 40,
+            "Plan": "Premium",
+            "Monthly_Bill": 88.0,
+            "Data_Usage_GB": 60.0
+        }
+    },
+    {
+        "Customer_ID": "CUST081",
+        "Customer_Name": "Customer_81",
+        "Age": 49,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 42,
+            "Plan": "Basic",
+            "Monthly_Bill": 89.1,
+            "Data_Usage_GB": 60.5
+        }
+    },
+    {
+        "Customer_ID": "CUST082",
+        "Customer_Name": "Customer_82",
+        "Age": 50,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 44,
+            "Plan": "Standard",
+            "Monthly_Bill": 90.2,
+            "Data_Usage_GB": 61.0
+        }
+    },
+    {
+        "Customer_ID": "CUST083",
+        "Customer_Name": "Customer_83",
+        "Age": 51,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 46,
+            "Plan": "Premium",
+            "Monthly_Bill": 91.3,
+            "Data_Usage_GB": 61.5
+        }
+    },
+    {
+        "Customer_ID": "CUST084",
+        "Customer_Name": "Customer_84",
+        "Age": 52,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 48,
+            "Plan": "Basic",
+            "Monthly_Bill": 92.4,
+            "Data_Usage_GB": 62.0
+        }
+    },
+    {
+        "Customer_ID": "CUST085",
+        "Customer_Name": "Customer_85",
+        "Age": 53,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 50,
+            "Plan": "Standard",
+            "Monthly_Bill": 93.5,
+            "Data_Usage_GB": 62.5
+        }
+    },
+    {
+        "Customer_ID": "CUST086",
+        "Customer_Name": "Customer_86",
+        "Age": 54,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 52,
+            "Plan": "Premium",
+            "Monthly_Bill": 94.6,
+            "Data_Usage_GB": 63.0
+        }
+    },
+    {
+        "Customer_ID": "CUST087",
+        "Customer_Name": "Customer_87",
+        "Age": 55,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 54,
+            "Plan": "Basic",
+            "Monthly_Bill": 95.7,
+            "Data_Usage_GB": 63.5
+        }
+    },
+    {
+        "Customer_ID": "CUST088",
+        "Customer_Name": "Customer_88",
+        "Age": 56,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 56,
+            "Plan": "Standard",
+            "Monthly_Bill": 96.8,
+            "Data_Usage_GB": 64.0
+        }
+    },
+    {
+        "Customer_ID": "CUST089",
+        "Customer_Name": "Customer_89",
+        "Age": 57,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 58,
+            "Plan": "Premium",
+            "Monthly_Bill": 97.9,
+            "Data_Usage_GB": 64.5
+        }
+    },
+    {
+        "Customer_ID": "CUST090",
+        "Customer_Name": "Customer_90",
+        "Age": 58,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 60,
+            "Plan": "Basic",
+            "Monthly_Bill": 99.0,
+            "Data_Usage_GB": 65.0
+        }
+    },
+    {
+        "Customer_ID": "CUST091",
+        "Customer_Name": "Customer_91",
+        "Age": 59,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 62,
+            "Plan": "Standard",
+            "Monthly_Bill": 100.1,
+            "Data_Usage_GB": 65.5
+        }
+    },
+    {
+        "Customer_ID": "CUST092",
+        "Customer_Name": "Customer_92",
+        "Age": 60,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 64,
+            "Plan": "Premium",
+            "Monthly_Bill": 101.2,
+            "Data_Usage_GB": 66.0
+        }
+    },
+    {
+        "Customer_ID": "CUST093",
+        "Customer_Name": "Customer_93",
+        "Age": 61,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 66,
+            "Plan": "Basic",
+            "Monthly_Bill": 102.3,
+            "Data_Usage_GB": 66.5
+        }
+    },
+    {
+        "Customer_ID": "CUST094",
+        "Customer_Name": "Customer_94",
+        "Age": 62,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 68,
+            "Plan": "Standard",
+            "Monthly_Bill": 103.4,
+            "Data_Usage_GB": 67.0
+        }
+    },
+    {
+        "Customer_ID": "CUST095",
+        "Customer_Name": "Customer_95",
+        "Age": 63,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 70,
+            "Plan": "Premium",
+            "Monthly_Bill": 104.5,
+            "Data_Usage_GB": 67.5
+        }
+    },
+    {
+        "Customer_ID": "CUST096",
+        "Customer_Name": "Customer_96",
+        "Age": 64,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 72,
+            "Plan": "Basic",
+            "Monthly_Bill": 105.6,
+            "Data_Usage_GB": 68.0
+        }
+    },
+    {
+        "Customer_ID": "CUST097",
+        "Customer_Name": "Customer_97",
+        "Age": 65,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Europe",
+            "Tenure_Months": 74,
+            "Plan": "Standard",
+            "Monthly_Bill": 106.7,
+            "Data_Usage_GB": 68.5
+        }
+    },
+    {
+        "Customer_ID": "CUST098",
+        "Customer_Name": "Customer_98",
+        "Age": 66,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "Asia",
+            "Tenure_Months": 76,
+            "Plan": "Premium",
+            "Monthly_Bill": 107.8,
+            "Data_Usage_GB": 69.0
+        }
+    },
+    {
+        "Customer_ID": "CUST099",
+        "Customer_Name": "Customer_99",
+        "Age": 67,
+        "Subscription": {
+            "Gender": "Female",
+            "Region": "Australia",
+            "Tenure_Months": 78,
+            "Plan": "Basic",
+            "Monthly_Bill": 108.9,
+            "Data_Usage_GB": 69.5
+        }
+    },
+    {
+        "Customer_ID": "CUST100",
+        "Customer_Name": "Customer_100",
+        "Age": 18,
+        "Subscription": {
+            "Gender": "Male",
+            "Region": "North America",
+            "Tenure_Months": 80,
+            "Plan": "Standard",
+            "Monthly_Bill": 55.0,
+            "Data_Usage_GB": 70.0
+        }
+    }
+]

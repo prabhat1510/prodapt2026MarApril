@@ -1,0 +1,402 @@
+[
+    {
+        "Tower_ID": "TWR001",
+        "Region": "Europe",
+        "Average_Latency_ms": 20.1,
+        "Packet_Loss_Percentage": 5.05,
+        "Uptime_Percentage": 96,
+        "Data_Transfer_GB": 101.5
+    },
+    {
+        "Tower_ID": "TWR002",
+        "Region": "Asia",
+        "Average_Latency_ms": 20.2,
+        "Packet_Loss_Percentage": 5.1,
+        "Uptime_Percentage": 97,
+        "Data_Transfer_GB": 103.0
+    },
+    {
+        "Tower_ID": "TWR003",
+        "Region": "Australia",
+        "Average_Latency_ms": 20.3,
+        "Packet_Loss_Percentage": 5.15,
+        "Uptime_Percentage": 98,
+        "Data_Transfer_GB": 104.5
+    },
+    {
+        "Tower_ID": "TWR004",
+        "Region": "North America",
+        "Average_Latency_ms": 20.4,
+        "Packet_Loss_Percentage": 5.2,
+        "Uptime_Percentage": 99,
+        "Data_Transfer_GB": 106.0
+    },
+    {
+        "Tower_ID": "TWR005",
+        "Region": "Europe",
+        "Average_Latency_ms": 20.5,
+        "Packet_Loss_Percentage": 5.25,
+        "Uptime_Percentage": 95,
+        "Data_Transfer_GB": 107.5
+    },
+    {
+        "Tower_ID": "TWR006",
+        "Region": "Asia",
+        "Average_Latency_ms": 20.6,
+        "Packet_Loss_Percentage": 5.3,
+        "Uptime_Percentage": 96,
+        "Data_Transfer_GB": 109.0
+    },
+    {
+        "Tower_ID": "TWR007",
+        "Region": "Australia",
+        "Average_Latency_ms": 20.7,
+        "Packet_Loss_Percentage": 5.35,
+        "Uptime_Percentage": 97,
+        "Data_Transfer_GB": 110.5
+    },
+    {
+        "Tower_ID": "TWR008",
+        "Region": "North America",
+        "Average_Latency_ms": 20.8,
+        "Packet_Loss_Percentage": 5.4,
+        "Uptime_Percentage": 98,
+        "Data_Transfer_GB": 112.0
+    },
+    {
+        "Tower_ID": "TWR009",
+        "Region": "Europe",
+        "Average_Latency_ms": 20.9,
+        "Packet_Loss_Percentage": 5.45,
+        "Uptime_Percentage": 99,
+        "Data_Transfer_GB": 113.5
+    },
+    {
+        "Tower_ID": "TWR010",
+        "Region": "Asia",
+        "Average_Latency_ms": 21.0,
+        "Packet_Loss_Percentage": 5.5,
+        "Uptime_Percentage": 95,
+        "Data_Transfer_GB": 115.0
+    },
+    {
+        "Tower_ID": "TWR011",
+        "Region": "Australia",
+        "Average_Latency_ms": 21.1,
+        "Packet_Loss_Percentage": 5.55,
+        "Uptime_Percentage": 96,
+        "Data_Transfer_GB": 116.5
+    },
+    {
+        "Tower_ID": "TWR012",
+        "Region": "North America",
+        "Average_Latency_ms": 21.2,
+        "Packet_Loss_Percentage": 5.6,
+        "Uptime_Percentage": 97,
+        "Data_Transfer_GB": 118.0
+    },
+    {
+        "Tower_ID": "TWR013",
+        "Region": "Europe",
+        "Average_Latency_ms": 21.3,
+        "Packet_Loss_Percentage": 5.65,
+        "Uptime_Percentage": 98,
+        "Data_Transfer_GB": 119.5
+    },
+    {
+        "Tower_ID": "TWR014",
+        "Region": "Asia",
+        "Average_Latency_ms": 21.4,
+        "Packet_Loss_Percentage": 5.7,
+        "Uptime_Percentage": 99,
+        "Data_Transfer_GB": 121.0
+    },
+    {
+        "Tower_ID": "TWR015",
+        "Region": "Australia",
+        "Average_Latency_ms": 21.5,
+        "Packet_Loss_Percentage": 5.75,
+        "Uptime_Percentage": 95,
+        "Data_Transfer_GB": 122.5
+    },
+    {
+        "Tower_ID": "TWR016",
+        "Region": "North America",
+        "Average_Latency_ms": 21.6,
+        "Packet_Loss_Percentage": 5.8,
+        "Uptime_Percentage": 96,
+        "Data_Transfer_GB": 124.0
+    },
+    {
+        "Tower_ID": "TWR017",
+        "Region": "Europe",
+        "Average_Latency_ms": 21.7,
+        "Packet_Loss_Percentage": 5.85,
+        "Uptime_Percentage": 97,
+        "Data_Transfer_GB": 125.5
+    },
+    {
+        "Tower_ID": "TWR018",
+        "Region": "Asia",
+        "Average_Latency_ms": 21.8,
+        "Packet_Loss_Percentage": 5.9,
+        "Uptime_Percentage": 98,
+        "Data_Transfer_GB": 127.0
+    },
+    {
+        "Tower_ID": "TWR019",
+        "Region": "Australia",
+        "Average_Latency_ms": 21.9,
+        "Packet_Loss_Percentage": 5.95,
+        "Uptime_Percentage": 99,
+        "Data_Transfer_GB": 128.5
+    },
+    {
+        "Tower_ID": "TWR020",
+        "Region": "North America",
+        "Average_Latency_ms": 22.0,
+        "Packet_Loss_Percentage": 6.0,
+        "Uptime_Percentage": 95,
+        "Data_Transfer_GB": 130.0
+    },
+    {
+        "Tower_ID": "TWR021",
+        "Region": "Europe",
+        "Average_Latency_ms": 22.1,
+        "Packet_Loss_Percentage": 6.05,
+        "Uptime_Percentage": 96,
+        "Data_Transfer_GB": 131.5
+    },
+    {
+        "Tower_ID": "TWR022",
+        "Region": "Asia",
+        "Average_Latency_ms": 22.2,
+        "Packet_Loss_Percentage": 6.1,
+        "Uptime_Percentage": 97,
+        "Data_Transfer_GB": 133.0
+    },
+    {
+        "Tower_ID": "TWR023",
+        "Region": "Australia",
+        "Average_Latency_ms": 22.3,
+        "Packet_Loss_Percentage": 6.15,
+        "Uptime_Percentage": 98,
+        "Data_Transfer_GB": 134.5
+    },
+    {
+        "Tower_ID": "TWR024",
+        "Region": "North America",
+        "Average_Latency_ms": 22.4,
+        "Packet_Loss_Percentage": 6.2,
+        "Uptime_Percentage": 99,
+        "Data_Transfer_GB": 136.0
+    },
+    {
+        "Tower_ID": "TWR025",
+        "Region": "Europe",
+        "Average_Latency_ms": 22.5,
+        "Packet_Loss_Percentage": 6.25,
+        "Uptime_Percentage": 95,
+        "Data_Transfer_GB": 137.5
+    },
+    {
+        "Tower_ID": "TWR026",
+        "Region": "Asia",
+        "Average_Latency_ms": 22.6,
+        "Packet_Loss_Percentage": 6.3,
+        "Uptime_Percentage": 96,
+        "Data_Transfer_GB": 139.0
+    },
+    {
+        "Tower_ID": "TWR027",
+        "Region": "Australia",
+        "Average_Latency_ms": 22.7,
+        "Packet_Loss_Percentage": 6.35,
+        "Uptime_Percentage": 97,
+        "Data_Transfer_GB": 140.5
+    },
+    {
+        "Tower_ID": "TWR028",
+        "Region": "North America",
+        "Average_Latency_ms": 22.8,
+        "Packet_Loss_Percentage": 6.4,
+        "Uptime_Percentage": 98,
+        "Data_Transfer_GB": 142.0
+    },
+    {
+        "Tower_ID": "TWR029",
+        "Region": "Europe",
+        "Average_Latency_ms": 22.9,
+        "Packet_Loss_Percentage": 6.45,
+        "Uptime_Percentage": 99,
+        "Data_Transfer_GB": 143.5
+    },
+    {
+        "Tower_ID": "TWR030",
+        "Region": "Asia",
+        "Average_Latency_ms": 23.0,
+        "Packet_Loss_Percentage": 6.5,
+        "Uptime_Percentage": 95,
+        "Data_Transfer_GB": 145.0
+    },
+    {
+        "Tower_ID": "TWR031",
+        "Region": "Australia",
+        "Average_Latency_ms": 23.1,
+        "Packet_Loss_Percentage": 6.55,
+        "Uptime_Percentage": 96,
+        "Data_Transfer_GB": 146.5
+    },
+    {
+        "Tower_ID": "TWR032",
+        "Region": "North America",
+        "Average_Latency_ms": 23.2,
+        "Packet_Loss_Percentage": 6.6,
+        "Uptime_Percentage": 97,
+        "Data_Transfer_GB": 148.0
+    },
+    {
+        "Tower_ID": "TWR033",
+        "Region": "Europe",
+        "Average_Latency_ms": 23.3,
+        "Packet_Loss_Percentage": 6.65,
+        "Uptime_Percentage": 98,
+        "Data_Transfer_GB": 149.5
+    },
+    {
+        "Tower_ID": "TWR034",
+        "Region": "Asia",
+        "Average_Latency_ms": 23.4,
+        "Packet_Loss_Percentage": 6.7,
+        "Uptime_Percentage": 99,
+        "Data_Transfer_GB": 151.0
+    },
+    {
+        "Tower_ID": "TWR035",
+        "Region": "Australia",
+        "Average_Latency_ms": 23.5,
+        "Packet_Loss_Percentage": 6.75,
+        "Uptime_Percentage": 95,
+        "Data_Transfer_GB": 152.5
+    },
+    {
+        "Tower_ID": "TWR036",
+        "Region": "North America",
+        "Average_Latency_ms": 23.6,
+        "Packet_Loss_Percentage": 6.8,
+        "Uptime_Percentage": 96,
+        "Data_Transfer_GB": 154.0
+    },
+    {
+        "Tower_ID": "TWR037",
+        "Region": "Europe",
+        "Average_Latency_ms": 23.7,
+        "Packet_Loss_Percentage": 6.85,
+        "Uptime_Percentage": 97,
+        "Data_Transfer_GB": 155.5
+    },
+    {
+        "Tower_ID": "TWR038",
+        "Region": "Asia",
+        "Average_Latency_ms": 23.8,
+        "Packet_Loss_Percentage": 6.9,
+        "Uptime_Percentage": 98,
+        "Data_Transfer_GB": 157.0
+    },
+    {
+        "Tower_ID": "TWR039",
+        "Region": "Australia",
+        "Average_Latency_ms": 23.9,
+        "Packet_Loss_Percentage": 6.95,
+        "Uptime_Percentage": 99,
+        "Data_Transfer_GB": 158.5
+    },
+    {
+        "Tower_ID": "TWR040",
+        "Region": "North America",
+        "Average_Latency_ms": 24.0,
+        "Packet_Loss_Percentage": 7.0,
+        "Uptime_Percentage": 95,
+        "Data_Transfer_GB": 160.0
+    },
+    {
+        "Tower_ID": "TWR041",
+        "Region": "Europe",
+        "Average_Latency_ms": 24.1,
+        "Packet_Loss_Percentage": 7.05,
+        "Uptime_Percentage": 96,
+        "Data_Transfer_GB": 161.5
+    },
+    {
+        "Tower_ID": "TWR042",
+        "Region": "Asia",
+        "Average_Latency_ms": 24.2,
+        "Packet_Loss_Percentage": 7.1,
+        "Uptime_Percentage": 97,
+        "Data_Transfer_GB": 163.0
+    },
+    {
+        "Tower_ID": "TWR043",
+        "Region": "Australia",
+        "Average_Latency_ms": 24.3,
+        "Packet_Loss_Percentage": 7.15,
+        "Uptime_Percentage": 98,
+        "Data_Transfer_GB": 164.5
+    },
+    {
+        "Tower_ID": "TWR044",
+        "Region": "North America",
+        "Average_Latency_ms": 24.4,
+        "Packet_Loss_Percentage": 7.2,
+        "Uptime_Percentage": 99,
+        "Data_Transfer_GB": 166.0
+    },
+    {
+        "Tower_ID": "TWR045",
+        "Region": "Europe",
+        "Average_Latency_ms": 24.5,
+        "Packet_Loss_Percentage": 7.25,
+        "Uptime_Percentage": 95,
+        "Data_Transfer_GB": 167.5
+    },
+    {
+        "Tower_ID": "TWR046",
+        "Region": "Asia",
+        "Average_Latency_ms": 24.6,
+        "Packet_Loss_Percentage": 7.3,
+        "Uptime_Percentage": 96,
+        "Data_Transfer_GB": 169.0
+    },
+    {
+        "Tower_ID": "TWR047",
+        "Region": "Australia",
+        "Average_Latency_ms": 24.7,
+        "Packet_Loss_Percentage": 7.35,
+        "Uptime_Percentage": 97,
+        "Data_Transfer_GB": 170.5
+    },
+    {
+        "Tower_ID": "TWR048",
+        "Region": "North America",
+        "Average_Latency_ms": 24.8,
+        "Packet_Loss_Percentage": 7.4,
+        "Uptime_Percentage": 98,
+        "Data_Transfer_GB": 172.0
+    },
+    {
+        "Tower_ID": "TWR049",
+        "Region": "Europe",
+        "Average_Latency_ms": 24.9,
+        "Packet_Loss_Percentage": 7.45,
+        "Uptime_Percentage": 99,
+        "Data_Transfer_GB": 173.5
+    },
+    {
+        "Tower_ID": "TWR050",
+        "Region": "Asia",
+        "Average_Latency_ms": 25.0,
+        "Packet_Loss_Percentage": 7.5,
+        "Uptime_Percentage": 95,
+        "Data_Transfer_GB": 175.0
+    }
+]

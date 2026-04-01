@@ -1,0 +1,1602 @@
+[
+    {
+        "Call_ID": "CALL0001",
+        "Customer_ID": "CUST002",
+        "Call_Duration_Minutes": 0.8,
+        "Call_Type": "International",
+        "Call_Cost": 0.6,
+        "Call_Time": "2024-11-2 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0002",
+        "Customer_ID": "CUST003",
+        "Call_Duration_Minutes": 1.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 0.7,
+        "Call_Time": "2024-11-3 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0003",
+        "Customer_ID": "CUST004",
+        "Call_Duration_Minutes": 2.4,
+        "Call_Type": "Local",
+        "Call_Cost": 0.8,
+        "Call_Time": "2024-11-4 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0004",
+        "Customer_ID": "CUST005",
+        "Call_Duration_Minutes": 3.2,
+        "Call_Type": "International",
+        "Call_Cost": 0.9,
+        "Call_Time": "2024-11-5 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0005",
+        "Customer_ID": "CUST006",
+        "Call_Duration_Minutes": 4.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 1.0,
+        "Call_Time": "2024-11-6 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0006",
+        "Customer_ID": "CUST007",
+        "Call_Duration_Minutes": 4.8,
+        "Call_Type": "Local",
+        "Call_Cost": 1.1,
+        "Call_Time": "2024-11-7 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0007",
+        "Customer_ID": "CUST008",
+        "Call_Duration_Minutes": 5.6,
+        "Call_Type": "International",
+        "Call_Cost": 1.2,
+        "Call_Time": "2024-11-8 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0008",
+        "Customer_ID": "CUST009",
+        "Call_Duration_Minutes": 6.4,
+        "Call_Type": "Roaming",
+        "Call_Cost": 1.3,
+        "Call_Time": "2024-11-9 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0009",
+        "Customer_ID": "CUST010",
+        "Call_Duration_Minutes": 7.2,
+        "Call_Type": "Local",
+        "Call_Cost": 1.4,
+        "Call_Time": "2024-11-10 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0010",
+        "Customer_ID": "CUST011",
+        "Call_Duration_Minutes": 8.0,
+        "Call_Type": "International",
+        "Call_Cost": 1.5,
+        "Call_Time": "2024-11-11 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0011",
+        "Customer_ID": "CUST012",
+        "Call_Duration_Minutes": 8.8,
+        "Call_Type": "Roaming",
+        "Call_Cost": 1.6,
+        "Call_Time": "2024-11-12 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0012",
+        "Customer_ID": "CUST013",
+        "Call_Duration_Minutes": 9.6,
+        "Call_Type": "Local",
+        "Call_Cost": 1.7,
+        "Call_Time": "2024-11-13 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0013",
+        "Customer_ID": "CUST014",
+        "Call_Duration_Minutes": 10.4,
+        "Call_Type": "International",
+        "Call_Cost": 1.8,
+        "Call_Time": "2024-11-14 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0014",
+        "Customer_ID": "CUST015",
+        "Call_Duration_Minutes": 11.2,
+        "Call_Type": "Roaming",
+        "Call_Cost": 1.9,
+        "Call_Time": "2024-11-15 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0015",
+        "Customer_ID": "CUST016",
+        "Call_Duration_Minutes": 12.0,
+        "Call_Type": "Local",
+        "Call_Cost": 2.0,
+        "Call_Time": "2024-11-16 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0016",
+        "Customer_ID": "CUST017",
+        "Call_Duration_Minutes": 12.8,
+        "Call_Type": "International",
+        "Call_Cost": 2.1,
+        "Call_Time": "2024-11-17 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0017",
+        "Customer_ID": "CUST018",
+        "Call_Duration_Minutes": 13.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 2.2,
+        "Call_Time": "2024-11-18 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0018",
+        "Customer_ID": "CUST019",
+        "Call_Duration_Minutes": 14.4,
+        "Call_Type": "Local",
+        "Call_Cost": 2.3,
+        "Call_Time": "2024-11-19 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0019",
+        "Customer_ID": "CUST020",
+        "Call_Duration_Minutes": 15.2,
+        "Call_Type": "International",
+        "Call_Cost": 2.4,
+        "Call_Time": "2024-11-20 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0020",
+        "Customer_ID": "CUST021",
+        "Call_Duration_Minutes": 16.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 2.5,
+        "Call_Time": "2024-11-21 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0021",
+        "Customer_ID": "CUST022",
+        "Call_Duration_Minutes": 16.8,
+        "Call_Type": "Local",
+        "Call_Cost": 2.6,
+        "Call_Time": "2024-11-22 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0022",
+        "Customer_ID": "CUST023",
+        "Call_Duration_Minutes": 17.6,
+        "Call_Type": "International",
+        "Call_Cost": 2.7,
+        "Call_Time": "2024-11-23 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0023",
+        "Customer_ID": "CUST024",
+        "Call_Duration_Minutes": 18.4,
+        "Call_Type": "Roaming",
+        "Call_Cost": 2.8,
+        "Call_Time": "2024-11-24 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0024",
+        "Customer_ID": "CUST025",
+        "Call_Duration_Minutes": 19.2,
+        "Call_Type": "Local",
+        "Call_Cost": 2.9,
+        "Call_Time": "2024-11-25 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0025",
+        "Customer_ID": "CUST026",
+        "Call_Duration_Minutes": 20.0,
+        "Call_Type": "International",
+        "Call_Cost": 3.0,
+        "Call_Time": "2024-11-26 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0026",
+        "Customer_ID": "CUST027",
+        "Call_Duration_Minutes": 20.8,
+        "Call_Type": "Roaming",
+        "Call_Cost": 3.1,
+        "Call_Time": "2024-11-27 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0027",
+        "Customer_ID": "CUST028",
+        "Call_Duration_Minutes": 21.6,
+        "Call_Type": "Local",
+        "Call_Cost": 3.2,
+        "Call_Time": "2024-11-28 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0028",
+        "Customer_ID": "CUST029",
+        "Call_Duration_Minutes": 22.4,
+        "Call_Type": "International",
+        "Call_Cost": 3.3,
+        "Call_Time": "2024-11-29 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0029",
+        "Customer_ID": "CUST030",
+        "Call_Duration_Minutes": 23.2,
+        "Call_Type": "Roaming",
+        "Call_Cost": 3.4,
+        "Call_Time": "2024-11-30 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0030",
+        "Customer_ID": "CUST031",
+        "Call_Duration_Minutes": 24.0,
+        "Call_Type": "Local",
+        "Call_Cost": 3.5,
+        "Call_Time": "2024-11-1 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0031",
+        "Customer_ID": "CUST032",
+        "Call_Duration_Minutes": 24.8,
+        "Call_Type": "International",
+        "Call_Cost": 3.6,
+        "Call_Time": "2024-11-2 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0032",
+        "Customer_ID": "CUST033",
+        "Call_Duration_Minutes": 25.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 3.7,
+        "Call_Time": "2024-11-3 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0033",
+        "Customer_ID": "CUST034",
+        "Call_Duration_Minutes": 26.4,
+        "Call_Type": "Local",
+        "Call_Cost": 3.8,
+        "Call_Time": "2024-11-4 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0034",
+        "Customer_ID": "CUST035",
+        "Call_Duration_Minutes": 27.2,
+        "Call_Type": "International",
+        "Call_Cost": 3.9,
+        "Call_Time": "2024-11-5 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0035",
+        "Customer_ID": "CUST036",
+        "Call_Duration_Minutes": 28.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 4.0,
+        "Call_Time": "2024-11-6 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0036",
+        "Customer_ID": "CUST037",
+        "Call_Duration_Minutes": 28.8,
+        "Call_Type": "Local",
+        "Call_Cost": 4.1,
+        "Call_Time": "2024-11-7 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0037",
+        "Customer_ID": "CUST038",
+        "Call_Duration_Minutes": 29.6,
+        "Call_Type": "International",
+        "Call_Cost": 4.2,
+        "Call_Time": "2024-11-8 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0038",
+        "Customer_ID": "CUST039",
+        "Call_Duration_Minutes": 30.4,
+        "Call_Type": "Roaming",
+        "Call_Cost": 4.3,
+        "Call_Time": "2024-11-9 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0039",
+        "Customer_ID": "CUST040",
+        "Call_Duration_Minutes": 31.2,
+        "Call_Type": "Local",
+        "Call_Cost": 4.4,
+        "Call_Time": "2024-11-10 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0040",
+        "Customer_ID": "CUST041",
+        "Call_Duration_Minutes": 32.0,
+        "Call_Type": "International",
+        "Call_Cost": 4.5,
+        "Call_Time": "2024-11-11 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0041",
+        "Customer_ID": "CUST042",
+        "Call_Duration_Minutes": 32.8,
+        "Call_Type": "Roaming",
+        "Call_Cost": 4.6,
+        "Call_Time": "2024-11-12 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0042",
+        "Customer_ID": "CUST043",
+        "Call_Duration_Minutes": 33.6,
+        "Call_Type": "Local",
+        "Call_Cost": 4.7,
+        "Call_Time": "2024-11-13 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0043",
+        "Customer_ID": "CUST044",
+        "Call_Duration_Minutes": 34.4,
+        "Call_Type": "International",
+        "Call_Cost": 4.8,
+        "Call_Time": "2024-11-14 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0044",
+        "Customer_ID": "CUST045",
+        "Call_Duration_Minutes": 35.2,
+        "Call_Type": "Roaming",
+        "Call_Cost": 4.9,
+        "Call_Time": "2024-11-15 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0045",
+        "Customer_ID": "CUST046",
+        "Call_Duration_Minutes": 36.0,
+        "Call_Type": "Local",
+        "Call_Cost": 5.0,
+        "Call_Time": "2024-11-16 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0046",
+        "Customer_ID": "CUST047",
+        "Call_Duration_Minutes": 36.8,
+        "Call_Type": "International",
+        "Call_Cost": 5.1,
+        "Call_Time": "2024-11-17 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0047",
+        "Customer_ID": "CUST048",
+        "Call_Duration_Minutes": 37.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 5.2,
+        "Call_Time": "2024-11-18 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0048",
+        "Customer_ID": "CUST049",
+        "Call_Duration_Minutes": 38.4,
+        "Call_Type": "Local",
+        "Call_Cost": 5.3,
+        "Call_Time": "2024-11-19 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0049",
+        "Customer_ID": "CUST050",
+        "Call_Duration_Minutes": 39.2,
+        "Call_Type": "International",
+        "Call_Cost": 5.4,
+        "Call_Time": "2024-11-20 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0050",
+        "Customer_ID": "CUST051",
+        "Call_Duration_Minutes": 40.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 5.5,
+        "Call_Time": "2024-11-21 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0051",
+        "Customer_ID": "CUST052",
+        "Call_Duration_Minutes": 40.8,
+        "Call_Type": "Local",
+        "Call_Cost": 5.6,
+        "Call_Time": "2024-11-22 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0052",
+        "Customer_ID": "CUST053",
+        "Call_Duration_Minutes": 41.6,
+        "Call_Type": "International",
+        "Call_Cost": 5.7,
+        "Call_Time": "2024-11-23 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0053",
+        "Customer_ID": "CUST054",
+        "Call_Duration_Minutes": 42.4,
+        "Call_Type": "Roaming",
+        "Call_Cost": 5.8,
+        "Call_Time": "2024-11-24 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0054",
+        "Customer_ID": "CUST055",
+        "Call_Duration_Minutes": 43.2,
+        "Call_Type": "Local",
+        "Call_Cost": 5.9,
+        "Call_Time": "2024-11-25 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0055",
+        "Customer_ID": "CUST056",
+        "Call_Duration_Minutes": 44.0,
+        "Call_Type": "International",
+        "Call_Cost": 6.0,
+        "Call_Time": "2024-11-26 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0056",
+        "Customer_ID": "CUST057",
+        "Call_Duration_Minutes": 44.8,
+        "Call_Type": "Roaming",
+        "Call_Cost": 6.1,
+        "Call_Time": "2024-11-27 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0057",
+        "Customer_ID": "CUST058",
+        "Call_Duration_Minutes": 45.6,
+        "Call_Type": "Local",
+        "Call_Cost": 6.2,
+        "Call_Time": "2024-11-28 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0058",
+        "Customer_ID": "CUST059",
+        "Call_Duration_Minutes": 46.4,
+        "Call_Type": "International",
+        "Call_Cost": 6.3,
+        "Call_Time": "2024-11-29 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0059",
+        "Customer_ID": "CUST060",
+        "Call_Duration_Minutes": 47.2,
+        "Call_Type": "Roaming",
+        "Call_Cost": 6.4,
+        "Call_Time": "2024-11-30 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0060",
+        "Customer_ID": "CUST061",
+        "Call_Duration_Minutes": 48.0,
+        "Call_Type": "Local",
+        "Call_Cost": 6.5,
+        "Call_Time": "2024-11-1 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0061",
+        "Customer_ID": "CUST062",
+        "Call_Duration_Minutes": 48.8,
+        "Call_Type": "International",
+        "Call_Cost": 6.6,
+        "Call_Time": "2024-11-2 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0062",
+        "Customer_ID": "CUST063",
+        "Call_Duration_Minutes": 49.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 6.7,
+        "Call_Time": "2024-11-3 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0063",
+        "Customer_ID": "CUST064",
+        "Call_Duration_Minutes": 50.4,
+        "Call_Type": "Local",
+        "Call_Cost": 6.8,
+        "Call_Time": "2024-11-4 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0064",
+        "Customer_ID": "CUST065",
+        "Call_Duration_Minutes": 51.2,
+        "Call_Type": "International",
+        "Call_Cost": 6.9,
+        "Call_Time": "2024-11-5 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0065",
+        "Customer_ID": "CUST066",
+        "Call_Duration_Minutes": 52.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 7.0,
+        "Call_Time": "2024-11-6 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0066",
+        "Customer_ID": "CUST067",
+        "Call_Duration_Minutes": 52.8,
+        "Call_Type": "Local",
+        "Call_Cost": 7.1,
+        "Call_Time": "2024-11-7 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0067",
+        "Customer_ID": "CUST068",
+        "Call_Duration_Minutes": 53.6,
+        "Call_Type": "International",
+        "Call_Cost": 7.2,
+        "Call_Time": "2024-11-8 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0068",
+        "Customer_ID": "CUST069",
+        "Call_Duration_Minutes": 54.4,
+        "Call_Type": "Roaming",
+        "Call_Cost": 7.3,
+        "Call_Time": "2024-11-9 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0069",
+        "Customer_ID": "CUST070",
+        "Call_Duration_Minutes": 55.2,
+        "Call_Type": "Local",
+        "Call_Cost": 7.4,
+        "Call_Time": "2024-11-10 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0070",
+        "Customer_ID": "CUST071",
+        "Call_Duration_Minutes": 56.0,
+        "Call_Type": "International",
+        "Call_Cost": 7.5,
+        "Call_Time": "2024-11-11 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0071",
+        "Customer_ID": "CUST072",
+        "Call_Duration_Minutes": 56.8,
+        "Call_Type": "Roaming",
+        "Call_Cost": 7.6,
+        "Call_Time": "2024-11-12 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0072",
+        "Customer_ID": "CUST073",
+        "Call_Duration_Minutes": 57.6,
+        "Call_Type": "Local",
+        "Call_Cost": 7.7,
+        "Call_Time": "2024-11-13 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0073",
+        "Customer_ID": "CUST074",
+        "Call_Duration_Minutes": 58.4,
+        "Call_Type": "International",
+        "Call_Cost": 7.8,
+        "Call_Time": "2024-11-14 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0074",
+        "Customer_ID": "CUST075",
+        "Call_Duration_Minutes": 59.2,
+        "Call_Type": "Roaming",
+        "Call_Cost": 7.9,
+        "Call_Time": "2024-11-15 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0075",
+        "Customer_ID": "CUST076",
+        "Call_Duration_Minutes": 60.0,
+        "Call_Type": "Local",
+        "Call_Cost": 8.0,
+        "Call_Time": "2024-11-16 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0076",
+        "Customer_ID": "CUST077",
+        "Call_Duration_Minutes": 60.8,
+        "Call_Type": "International",
+        "Call_Cost": 8.1,
+        "Call_Time": "2024-11-17 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0077",
+        "Customer_ID": "CUST078",
+        "Call_Duration_Minutes": 61.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 8.2,
+        "Call_Time": "2024-11-18 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0078",
+        "Customer_ID": "CUST079",
+        "Call_Duration_Minutes": 62.4,
+        "Call_Type": "Local",
+        "Call_Cost": 8.3,
+        "Call_Time": "2024-11-19 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0079",
+        "Customer_ID": "CUST080",
+        "Call_Duration_Minutes": 63.2,
+        "Call_Type": "International",
+        "Call_Cost": 8.4,
+        "Call_Time": "2024-11-20 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0080",
+        "Customer_ID": "CUST081",
+        "Call_Duration_Minutes": 64.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 8.5,
+        "Call_Time": "2024-11-21 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0081",
+        "Customer_ID": "CUST082",
+        "Call_Duration_Minutes": 64.8,
+        "Call_Type": "Local",
+        "Call_Cost": 8.6,
+        "Call_Time": "2024-11-22 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0082",
+        "Customer_ID": "CUST083",
+        "Call_Duration_Minutes": 65.6,
+        "Call_Type": "International",
+        "Call_Cost": 8.7,
+        "Call_Time": "2024-11-23 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0083",
+        "Customer_ID": "CUST084",
+        "Call_Duration_Minutes": 66.4,
+        "Call_Type": "Roaming",
+        "Call_Cost": 8.8,
+        "Call_Time": "2024-11-24 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0084",
+        "Customer_ID": "CUST085",
+        "Call_Duration_Minutes": 67.2,
+        "Call_Type": "Local",
+        "Call_Cost": 8.9,
+        "Call_Time": "2024-11-25 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0085",
+        "Customer_ID": "CUST086",
+        "Call_Duration_Minutes": 68.0,
+        "Call_Type": "International",
+        "Call_Cost": 9.0,
+        "Call_Time": "2024-11-26 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0086",
+        "Customer_ID": "CUST087",
+        "Call_Duration_Minutes": 68.8,
+        "Call_Type": "Roaming",
+        "Call_Cost": 9.1,
+        "Call_Time": "2024-11-27 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0087",
+        "Customer_ID": "CUST088",
+        "Call_Duration_Minutes": 69.6,
+        "Call_Type": "Local",
+        "Call_Cost": 9.2,
+        "Call_Time": "2024-11-28 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0088",
+        "Customer_ID": "CUST089",
+        "Call_Duration_Minutes": 70.4,
+        "Call_Type": "International",
+        "Call_Cost": 9.3,
+        "Call_Time": "2024-11-29 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0089",
+        "Customer_ID": "CUST090",
+        "Call_Duration_Minutes": 71.2,
+        "Call_Type": "Roaming",
+        "Call_Cost": 9.4,
+        "Call_Time": "2024-11-30 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0090",
+        "Customer_ID": "CUST091",
+        "Call_Duration_Minutes": 72.0,
+        "Call_Type": "Local",
+        "Call_Cost": 9.5,
+        "Call_Time": "2024-11-1 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0091",
+        "Customer_ID": "CUST092",
+        "Call_Duration_Minutes": 72.8,
+        "Call_Type": "International",
+        "Call_Cost": 9.6,
+        "Call_Time": "2024-11-2 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0092",
+        "Customer_ID": "CUST093",
+        "Call_Duration_Minutes": 73.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 9.7,
+        "Call_Time": "2024-11-3 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0093",
+        "Customer_ID": "CUST094",
+        "Call_Duration_Minutes": 74.4,
+        "Call_Type": "Local",
+        "Call_Cost": 9.8,
+        "Call_Time": "2024-11-4 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0094",
+        "Customer_ID": "CUST095",
+        "Call_Duration_Minutes": 75.2,
+        "Call_Type": "International",
+        "Call_Cost": 9.9,
+        "Call_Time": "2024-11-5 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0095",
+        "Customer_ID": "CUST096",
+        "Call_Duration_Minutes": 76.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 0.0,
+        "Call_Time": "2024-11-6 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0096",
+        "Customer_ID": "CUST097",
+        "Call_Duration_Minutes": 76.8,
+        "Call_Type": "Local",
+        "Call_Cost": 0.1,
+        "Call_Time": "2024-11-7 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0097",
+        "Customer_ID": "CUST098",
+        "Call_Duration_Minutes": 77.6,
+        "Call_Type": "International",
+        "Call_Cost": 0.2,
+        "Call_Time": "2024-11-8 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0098",
+        "Customer_ID": "CUST099",
+        "Call_Duration_Minutes": 78.4,
+        "Call_Type": "Roaming",
+        "Call_Cost": 0.3,
+        "Call_Time": "2024-11-9 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0099",
+        "Customer_ID": "CUST100",
+        "Call_Duration_Minutes": 79.2,
+        "Call_Type": "Local",
+        "Call_Cost": 0.4,
+        "Call_Time": "2024-11-10 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0100",
+        "Customer_ID": "CUST001",
+        "Call_Duration_Minutes": 80.0,
+        "Call_Type": "International",
+        "Call_Cost": 0.5,
+        "Call_Time": "2024-11-11 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0101",
+        "Customer_ID": "CUST002",
+        "Call_Duration_Minutes": 80.8,
+        "Call_Type": "Roaming",
+        "Call_Cost": 0.6,
+        "Call_Time": "2024-11-12 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0102",
+        "Customer_ID": "CUST003",
+        "Call_Duration_Minutes": 81.6,
+        "Call_Type": "Local",
+        "Call_Cost": 0.7,
+        "Call_Time": "2024-11-13 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0103",
+        "Customer_ID": "CUST004",
+        "Call_Duration_Minutes": 82.4,
+        "Call_Type": "International",
+        "Call_Cost": 0.8,
+        "Call_Time": "2024-11-14 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0104",
+        "Customer_ID": "CUST005",
+        "Call_Duration_Minutes": 83.2,
+        "Call_Type": "Roaming",
+        "Call_Cost": 0.9,
+        "Call_Time": "2024-11-15 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0105",
+        "Customer_ID": "CUST006",
+        "Call_Duration_Minutes": 84.0,
+        "Call_Type": "Local",
+        "Call_Cost": 1.0,
+        "Call_Time": "2024-11-16 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0106",
+        "Customer_ID": "CUST007",
+        "Call_Duration_Minutes": 84.8,
+        "Call_Type": "International",
+        "Call_Cost": 1.1,
+        "Call_Time": "2024-11-17 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0107",
+        "Customer_ID": "CUST008",
+        "Call_Duration_Minutes": 85.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 1.2,
+        "Call_Time": "2024-11-18 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0108",
+        "Customer_ID": "CUST009",
+        "Call_Duration_Minutes": 86.4,
+        "Call_Type": "Local",
+        "Call_Cost": 1.3,
+        "Call_Time": "2024-11-19 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0109",
+        "Customer_ID": "CUST010",
+        "Call_Duration_Minutes": 87.2,
+        "Call_Type": "International",
+        "Call_Cost": 1.4,
+        "Call_Time": "2024-11-20 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0110",
+        "Customer_ID": "CUST011",
+        "Call_Duration_Minutes": 88.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 1.5,
+        "Call_Time": "2024-11-21 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0111",
+        "Customer_ID": "CUST012",
+        "Call_Duration_Minutes": 88.8,
+        "Call_Type": "Local",
+        "Call_Cost": 1.6,
+        "Call_Time": "2024-11-22 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0112",
+        "Customer_ID": "CUST013",
+        "Call_Duration_Minutes": 89.6,
+        "Call_Type": "International",
+        "Call_Cost": 1.7,
+        "Call_Time": "2024-11-23 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0113",
+        "Customer_ID": "CUST014",
+        "Call_Duration_Minutes": 90.4,
+        "Call_Type": "Roaming",
+        "Call_Cost": 1.8,
+        "Call_Time": "2024-11-24 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0114",
+        "Customer_ID": "CUST015",
+        "Call_Duration_Minutes": 91.2,
+        "Call_Type": "Local",
+        "Call_Cost": 1.9,
+        "Call_Time": "2024-11-25 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0115",
+        "Customer_ID": "CUST016",
+        "Call_Duration_Minutes": 92.0,
+        "Call_Type": "International",
+        "Call_Cost": 2.0,
+        "Call_Time": "2024-11-26 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0116",
+        "Customer_ID": "CUST017",
+        "Call_Duration_Minutes": 92.8,
+        "Call_Type": "Roaming",
+        "Call_Cost": 2.1,
+        "Call_Time": "2024-11-27 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0117",
+        "Customer_ID": "CUST018",
+        "Call_Duration_Minutes": 93.6,
+        "Call_Type": "Local",
+        "Call_Cost": 2.2,
+        "Call_Time": "2024-11-28 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0118",
+        "Customer_ID": "CUST019",
+        "Call_Duration_Minutes": 94.4,
+        "Call_Type": "International",
+        "Call_Cost": 2.3,
+        "Call_Time": "2024-11-29 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0119",
+        "Customer_ID": "CUST020",
+        "Call_Duration_Minutes": 95.2,
+        "Call_Type": "Roaming",
+        "Call_Cost": 2.4,
+        "Call_Time": "2024-11-30 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0120",
+        "Customer_ID": "CUST021",
+        "Call_Duration_Minutes": 96.0,
+        "Call_Type": "Local",
+        "Call_Cost": 2.5,
+        "Call_Time": "2024-11-1 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0121",
+        "Customer_ID": "CUST022",
+        "Call_Duration_Minutes": 96.8,
+        "Call_Type": "International",
+        "Call_Cost": 2.6,
+        "Call_Time": "2024-11-2 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0122",
+        "Customer_ID": "CUST023",
+        "Call_Duration_Minutes": 97.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 2.7,
+        "Call_Time": "2024-11-3 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0123",
+        "Customer_ID": "CUST024",
+        "Call_Duration_Minutes": 98.4,
+        "Call_Type": "Local",
+        "Call_Cost": 2.8,
+        "Call_Time": "2024-11-4 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0124",
+        "Customer_ID": "CUST025",
+        "Call_Duration_Minutes": 99.2,
+        "Call_Type": "International",
+        "Call_Cost": 2.9,
+        "Call_Time": "2024-11-5 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0125",
+        "Customer_ID": "CUST026",
+        "Call_Duration_Minutes": 100.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 3.0,
+        "Call_Time": "2024-11-6 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0126",
+        "Customer_ID": "CUST027",
+        "Call_Duration_Minutes": 100.8,
+        "Call_Type": "Local",
+        "Call_Cost": 3.1,
+        "Call_Time": "2024-11-7 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0127",
+        "Customer_ID": "CUST028",
+        "Call_Duration_Minutes": 101.6,
+        "Call_Type": "International",
+        "Call_Cost": 3.2,
+        "Call_Time": "2024-11-8 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0128",
+        "Customer_ID": "CUST029",
+        "Call_Duration_Minutes": 102.4,
+        "Call_Type": "Roaming",
+        "Call_Cost": 3.3,
+        "Call_Time": "2024-11-9 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0129",
+        "Customer_ID": "CUST030",
+        "Call_Duration_Minutes": 103.2,
+        "Call_Type": "Local",
+        "Call_Cost": 3.4,
+        "Call_Time": "2024-11-10 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0130",
+        "Customer_ID": "CUST031",
+        "Call_Duration_Minutes": 104.0,
+        "Call_Type": "International",
+        "Call_Cost": 3.5,
+        "Call_Time": "2024-11-11 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0131",
+        "Customer_ID": "CUST032",
+        "Call_Duration_Minutes": 104.8,
+        "Call_Type": "Roaming",
+        "Call_Cost": 3.6,
+        "Call_Time": "2024-11-12 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0132",
+        "Customer_ID": "CUST033",
+        "Call_Duration_Minutes": 105.6,
+        "Call_Type": "Local",
+        "Call_Cost": 3.7,
+        "Call_Time": "2024-11-13 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0133",
+        "Customer_ID": "CUST034",
+        "Call_Duration_Minutes": 106.4,
+        "Call_Type": "International",
+        "Call_Cost": 3.8,
+        "Call_Time": "2024-11-14 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0134",
+        "Customer_ID": "CUST035",
+        "Call_Duration_Minutes": 107.2,
+        "Call_Type": "Roaming",
+        "Call_Cost": 3.9,
+        "Call_Time": "2024-11-15 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0135",
+        "Customer_ID": "CUST036",
+        "Call_Duration_Minutes": 108.0,
+        "Call_Type": "Local",
+        "Call_Cost": 4.0,
+        "Call_Time": "2024-11-16 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0136",
+        "Customer_ID": "CUST037",
+        "Call_Duration_Minutes": 108.8,
+        "Call_Type": "International",
+        "Call_Cost": 4.1,
+        "Call_Time": "2024-11-17 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0137",
+        "Customer_ID": "CUST038",
+        "Call_Duration_Minutes": 109.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 4.2,
+        "Call_Time": "2024-11-18 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0138",
+        "Customer_ID": "CUST039",
+        "Call_Duration_Minutes": 110.4,
+        "Call_Type": "Local",
+        "Call_Cost": 4.3,
+        "Call_Time": "2024-11-19 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0139",
+        "Customer_ID": "CUST040",
+        "Call_Duration_Minutes": 111.2,
+        "Call_Type": "International",
+        "Call_Cost": 4.4,
+        "Call_Time": "2024-11-20 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0140",
+        "Customer_ID": "CUST041",
+        "Call_Duration_Minutes": 112.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 4.5,
+        "Call_Time": "2024-11-21 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0141",
+        "Customer_ID": "CUST042",
+        "Call_Duration_Minutes": 112.8,
+        "Call_Type": "Local",
+        "Call_Cost": 4.6,
+        "Call_Time": "2024-11-22 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0142",
+        "Customer_ID": "CUST043",
+        "Call_Duration_Minutes": 113.6,
+        "Call_Type": "International",
+        "Call_Cost": 4.7,
+        "Call_Time": "2024-11-23 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0143",
+        "Customer_ID": "CUST044",
+        "Call_Duration_Minutes": 114.4,
+        "Call_Type": "Roaming",
+        "Call_Cost": 4.8,
+        "Call_Time": "2024-11-24 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0144",
+        "Customer_ID": "CUST045",
+        "Call_Duration_Minutes": 115.2,
+        "Call_Type": "Local",
+        "Call_Cost": 4.9,
+        "Call_Time": "2024-11-25 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0145",
+        "Customer_ID": "CUST046",
+        "Call_Duration_Minutes": 116.0,
+        "Call_Type": "International",
+        "Call_Cost": 5.0,
+        "Call_Time": "2024-11-26 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0146",
+        "Customer_ID": "CUST047",
+        "Call_Duration_Minutes": 116.8,
+        "Call_Type": "Roaming",
+        "Call_Cost": 5.1,
+        "Call_Time": "2024-11-27 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0147",
+        "Customer_ID": "CUST048",
+        "Call_Duration_Minutes": 117.6,
+        "Call_Type": "Local",
+        "Call_Cost": 5.2,
+        "Call_Time": "2024-11-28 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0148",
+        "Customer_ID": "CUST049",
+        "Call_Duration_Minutes": 118.4,
+        "Call_Type": "International",
+        "Call_Cost": 5.3,
+        "Call_Time": "2024-11-29 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0149",
+        "Customer_ID": "CUST050",
+        "Call_Duration_Minutes": 119.2,
+        "Call_Type": "Roaming",
+        "Call_Cost": 5.4,
+        "Call_Time": "2024-11-30 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0150",
+        "Customer_ID": "CUST051",
+        "Call_Duration_Minutes": 0.0,
+        "Call_Type": "Local",
+        "Call_Cost": 5.5,
+        "Call_Time": "2024-11-1 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0151",
+        "Customer_ID": "CUST052",
+        "Call_Duration_Minutes": 0.8,
+        "Call_Type": "International",
+        "Call_Cost": 5.6,
+        "Call_Time": "2024-11-2 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0152",
+        "Customer_ID": "CUST053",
+        "Call_Duration_Minutes": 1.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 5.7,
+        "Call_Time": "2024-11-3 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0153",
+        "Customer_ID": "CUST054",
+        "Call_Duration_Minutes": 2.4,
+        "Call_Type": "Local",
+        "Call_Cost": 5.8,
+        "Call_Time": "2024-11-4 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0154",
+        "Customer_ID": "CUST055",
+        "Call_Duration_Minutes": 3.2,
+        "Call_Type": "International",
+        "Call_Cost": 5.9,
+        "Call_Time": "2024-11-5 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0155",
+        "Customer_ID": "CUST056",
+        "Call_Duration_Minutes": 4.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 6.0,
+        "Call_Time": "2024-11-6 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0156",
+        "Customer_ID": "CUST057",
+        "Call_Duration_Minutes": 4.8,
+        "Call_Type": "Local",
+        "Call_Cost": 6.1,
+        "Call_Time": "2024-11-7 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0157",
+        "Customer_ID": "CUST058",
+        "Call_Duration_Minutes": 5.6,
+        "Call_Type": "International",
+        "Call_Cost": 6.2,
+        "Call_Time": "2024-11-8 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0158",
+        "Customer_ID": "CUST059",
+        "Call_Duration_Minutes": 6.4,
+        "Call_Type": "Roaming",
+        "Call_Cost": 6.3,
+        "Call_Time": "2024-11-9 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0159",
+        "Customer_ID": "CUST060",
+        "Call_Duration_Minutes": 7.2,
+        "Call_Type": "Local",
+        "Call_Cost": 6.4,
+        "Call_Time": "2024-11-10 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0160",
+        "Customer_ID": "CUST061",
+        "Call_Duration_Minutes": 8.0,
+        "Call_Type": "International",
+        "Call_Cost": 6.5,
+        "Call_Time": "2024-11-11 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0161",
+        "Customer_ID": "CUST062",
+        "Call_Duration_Minutes": 8.8,
+        "Call_Type": "Roaming",
+        "Call_Cost": 6.6,
+        "Call_Time": "2024-11-12 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0162",
+        "Customer_ID": "CUST063",
+        "Call_Duration_Minutes": 9.6,
+        "Call_Type": "Local",
+        "Call_Cost": 6.7,
+        "Call_Time": "2024-11-13 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0163",
+        "Customer_ID": "CUST064",
+        "Call_Duration_Minutes": 10.4,
+        "Call_Type": "International",
+        "Call_Cost": 6.8,
+        "Call_Time": "2024-11-14 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0164",
+        "Customer_ID": "CUST065",
+        "Call_Duration_Minutes": 11.2,
+        "Call_Type": "Roaming",
+        "Call_Cost": 6.9,
+        "Call_Time": "2024-11-15 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0165",
+        "Customer_ID": "CUST066",
+        "Call_Duration_Minutes": 12.0,
+        "Call_Type": "Local",
+        "Call_Cost": 7.0,
+        "Call_Time": "2024-11-16 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0166",
+        "Customer_ID": "CUST067",
+        "Call_Duration_Minutes": 12.8,
+        "Call_Type": "International",
+        "Call_Cost": 7.1,
+        "Call_Time": "2024-11-17 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0167",
+        "Customer_ID": "CUST068",
+        "Call_Duration_Minutes": 13.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 7.2,
+        "Call_Time": "2024-11-18 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0168",
+        "Customer_ID": "CUST069",
+        "Call_Duration_Minutes": 14.4,
+        "Call_Type": "Local",
+        "Call_Cost": 7.3,
+        "Call_Time": "2024-11-19 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0169",
+        "Customer_ID": "CUST070",
+        "Call_Duration_Minutes": 15.2,
+        "Call_Type": "International",
+        "Call_Cost": 7.4,
+        "Call_Time": "2024-11-20 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0170",
+        "Customer_ID": "CUST071",
+        "Call_Duration_Minutes": 16.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 7.5,
+        "Call_Time": "2024-11-21 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0171",
+        "Customer_ID": "CUST072",
+        "Call_Duration_Minutes": 16.8,
+        "Call_Type": "Local",
+        "Call_Cost": 7.6,
+        "Call_Time": "2024-11-22 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0172",
+        "Customer_ID": "CUST073",
+        "Call_Duration_Minutes": 17.6,
+        "Call_Type": "International",
+        "Call_Cost": 7.7,
+        "Call_Time": "2024-11-23 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0173",
+        "Customer_ID": "CUST074",
+        "Call_Duration_Minutes": 18.4,
+        "Call_Type": "Roaming",
+        "Call_Cost": 7.8,
+        "Call_Time": "2024-11-24 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0174",
+        "Customer_ID": "CUST075",
+        "Call_Duration_Minutes": 19.2,
+        "Call_Type": "Local",
+        "Call_Cost": 7.9,
+        "Call_Time": "2024-11-25 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0175",
+        "Customer_ID": "CUST076",
+        "Call_Duration_Minutes": 20.0,
+        "Call_Type": "International",
+        "Call_Cost": 8.0,
+        "Call_Time": "2024-11-26 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0176",
+        "Customer_ID": "CUST077",
+        "Call_Duration_Minutes": 20.8,
+        "Call_Type": "Roaming",
+        "Call_Cost": 8.1,
+        "Call_Time": "2024-11-27 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0177",
+        "Customer_ID": "CUST078",
+        "Call_Duration_Minutes": 21.6,
+        "Call_Type": "Local",
+        "Call_Cost": 8.2,
+        "Call_Time": "2024-11-28 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0178",
+        "Customer_ID": "CUST079",
+        "Call_Duration_Minutes": 22.4,
+        "Call_Type": "International",
+        "Call_Cost": 8.3,
+        "Call_Time": "2024-11-29 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0179",
+        "Customer_ID": "CUST080",
+        "Call_Duration_Minutes": 23.2,
+        "Call_Type": "Roaming",
+        "Call_Cost": 8.4,
+        "Call_Time": "2024-11-30 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0180",
+        "Customer_ID": "CUST081",
+        "Call_Duration_Minutes": 24.0,
+        "Call_Type": "Local",
+        "Call_Cost": 8.5,
+        "Call_Time": "2024-11-1 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0181",
+        "Customer_ID": "CUST082",
+        "Call_Duration_Minutes": 24.8,
+        "Call_Type": "International",
+        "Call_Cost": 8.6,
+        "Call_Time": "2024-11-2 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0182",
+        "Customer_ID": "CUST083",
+        "Call_Duration_Minutes": 25.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 8.7,
+        "Call_Time": "2024-11-3 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0183",
+        "Customer_ID": "CUST084",
+        "Call_Duration_Minutes": 26.4,
+        "Call_Type": "Local",
+        "Call_Cost": 8.8,
+        "Call_Time": "2024-11-4 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0184",
+        "Customer_ID": "CUST085",
+        "Call_Duration_Minutes": 27.2,
+        "Call_Type": "International",
+        "Call_Cost": 8.9,
+        "Call_Time": "2024-11-5 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0185",
+        "Customer_ID": "CUST086",
+        "Call_Duration_Minutes": 28.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 9.0,
+        "Call_Time": "2024-11-6 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0186",
+        "Customer_ID": "CUST087",
+        "Call_Duration_Minutes": 28.8,
+        "Call_Type": "Local",
+        "Call_Cost": 9.1,
+        "Call_Time": "2024-11-7 14:00:00"
+    },
+    {
+        "Call_ID": "CALL0187",
+        "Customer_ID": "CUST088",
+        "Call_Duration_Minutes": 29.6,
+        "Call_Type": "International",
+        "Call_Cost": 9.2,
+        "Call_Time": "2024-11-8 15:00:00"
+    },
+    {
+        "Call_ID": "CALL0188",
+        "Customer_ID": "CUST089",
+        "Call_Duration_Minutes": 30.4,
+        "Call_Type": "Roaming",
+        "Call_Cost": 9.3,
+        "Call_Time": "2024-11-9 16:00:00"
+    },
+    {
+        "Call_ID": "CALL0189",
+        "Customer_ID": "CUST090",
+        "Call_Duration_Minutes": 31.2,
+        "Call_Type": "Local",
+        "Call_Cost": 9.4,
+        "Call_Time": "2024-11-10 17:00:00"
+    },
+    {
+        "Call_ID": "CALL0190",
+        "Customer_ID": "CUST091",
+        "Call_Duration_Minutes": 32.0,
+        "Call_Type": "International",
+        "Call_Cost": 9.5,
+        "Call_Time": "2024-11-11 18:00:00"
+    },
+    {
+        "Call_ID": "CALL0191",
+        "Customer_ID": "CUST092",
+        "Call_Duration_Minutes": 32.8,
+        "Call_Type": "Roaming",
+        "Call_Cost": 9.6,
+        "Call_Time": "2024-11-12 19:00:00"
+    },
+    {
+        "Call_ID": "CALL0192",
+        "Customer_ID": "CUST093",
+        "Call_Duration_Minutes": 33.6,
+        "Call_Type": "Local",
+        "Call_Cost": 9.7,
+        "Call_Time": "2024-11-13 20:00:00"
+    },
+    {
+        "Call_ID": "CALL0193",
+        "Customer_ID": "CUST094",
+        "Call_Duration_Minutes": 34.4,
+        "Call_Type": "International",
+        "Call_Cost": 9.8,
+        "Call_Time": "2024-11-14 21:00:00"
+    },
+    {
+        "Call_ID": "CALL0194",
+        "Customer_ID": "CUST095",
+        "Call_Duration_Minutes": 35.2,
+        "Call_Type": "Roaming",
+        "Call_Cost": 9.9,
+        "Call_Time": "2024-11-15 22:00:00"
+    },
+    {
+        "Call_ID": "CALL0195",
+        "Customer_ID": "CUST096",
+        "Call_Duration_Minutes": 36.0,
+        "Call_Type": "Local",
+        "Call_Cost": 0.0,
+        "Call_Time": "2024-11-16 23:00:00"
+    },
+    {
+        "Call_ID": "CALL0196",
+        "Customer_ID": "CUST097",
+        "Call_Duration_Minutes": 36.8,
+        "Call_Type": "International",
+        "Call_Cost": 0.1,
+        "Call_Time": "2024-11-17 10:00:00"
+    },
+    {
+        "Call_ID": "CALL0197",
+        "Customer_ID": "CUST098",
+        "Call_Duration_Minutes": 37.6,
+        "Call_Type": "Roaming",
+        "Call_Cost": 0.2,
+        "Call_Time": "2024-11-18 11:00:00"
+    },
+    {
+        "Call_ID": "CALL0198",
+        "Customer_ID": "CUST099",
+        "Call_Duration_Minutes": 38.4,
+        "Call_Type": "Local",
+        "Call_Cost": 0.3,
+        "Call_Time": "2024-11-19 12:00:00"
+    },
+    {
+        "Call_ID": "CALL0199",
+        "Customer_ID": "CUST100",
+        "Call_Duration_Minutes": 39.2,
+        "Call_Type": "International",
+        "Call_Cost": 0.4,
+        "Call_Time": "2024-11-20 13:00:00"
+    },
+    {
+        "Call_ID": "CALL0200",
+        "Customer_ID": "CUST001",
+        "Call_Duration_Minutes": 40.0,
+        "Call_Type": "Roaming",
+        "Call_Cost": 0.5,
+        "Call_Time": "2024-11-21 14:00:00"
+    }
+]
