@@ -1,4 +1,4 @@
-from app.schemas.schemas import Restraunt, UpdateRestraunt, RestrauntResponse
+from app.schemas.restra_schema import Restraunt, UpdateRestraunt, RestrauntResponse
 from bson import ObjectId
 from bson.errors import InvalidId
 from pymongo.database import Database
@@ -7,7 +7,7 @@ from app.utils.exceptions import RestrauntNotFoundException
 
 logger = setup_logger()
 
-class RestrauntRepository:
+class RestrauntRepository:  
     def __init__(self, db: Database):
         self.db = db
         self.collection = db.restraunts

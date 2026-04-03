@@ -1,5 +1,6 @@
 from pydantic import BaseModel, EmailStr, Field
 from typing import Optional
+from app.schemas.cuisine_schema import Cuisine
 
 class Restraunt(BaseModel):
     #id: Optional[str] = Field(None, alias="_id")
@@ -7,7 +8,9 @@ class Restraunt(BaseModel):
     email: EmailStr
     phone: str
     city: str
-
+    cuisines: list[Cuisine]
+    owner_id: Optional[str] = None
+    
     class Config:
         populate_by_name = True
         json_encoders = {
@@ -20,14 +23,15 @@ class UpdateRestraunt(BaseModel):
     phone: Optional[str] = None
     city: Optional[str] = None
 
-
 class RestrauntResponse(BaseModel):
     id: Optional[str] = Field(None, alias="_id")
     name: str
     email: EmailStr
     phone: str
     city: str
-
+    cuisines: list[Cuisine]
+    owner_id: Optional[str] = None
+    
     class Config:
         populate_by_name = True
         json_encoders = {

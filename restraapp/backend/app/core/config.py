@@ -9,8 +9,7 @@ class Settings(BaseSettings):
     ALGORITHM: str
     ACCESS_TOKEN_EXPIRE_MINUTES: int
     REFRESH_TOKEN_EXPIRE_DAYS: int
-    #REDIS_HOST: str = "redis://default:*******@redis-18172.c10.us-east-1-4.ec2.cloud.redislabs.com:18172"
-
+  
     model_config = SettingsConfigDict(env_file=".env", case_sensitive=False)
 
 settings = Settings()

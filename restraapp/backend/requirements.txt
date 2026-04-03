@@ -2,11 +2,9 @@ fastapi
 uvicorn
 pydantic[email]
 pydantic-settings
-#sqlalchemy
 python-dotenv
 pymongo
 
 passlib[bcrypt] 
 python-jose
-#redis
 bcrypt==4.3.0
