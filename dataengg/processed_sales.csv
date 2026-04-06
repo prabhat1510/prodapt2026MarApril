@@ -1,0 +1,4 @@
+order_id,product,price,quantity,revenue
+1,Book,100,2,200
+2,Pen,20,5,100
+3,Notebook,50,3,150

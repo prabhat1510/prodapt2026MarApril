@@ -1,0 +1,4 @@
+pandas
+sqlalchemy
+#psycopg2-binary #Explain this package and its use in etl process
+pymysql
