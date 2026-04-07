@@ -1,0 +1,7 @@
+pandas
+apache-airflow
+pymysql
+requests
+streamlit
+pydantic-settings
+sqlalchemy
