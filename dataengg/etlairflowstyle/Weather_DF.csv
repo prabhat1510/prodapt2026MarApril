@@ -1,0 +1,64 @@
+location.name,location.region,location.country,location.lat,location.lon,location.tz_id,current.temp_c,current.temp_f,current.condition.text,current.condition.icon,current.wind_kph,current.pressure_in,current.precip_in,current.humidity,current.cloud,current.last_updated_epoch
+Strand,Westminster Greater London,United Kingdom,51.508,-0.121,Europe/London,17.2,63.0,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,18.7,30.21,0.0,45,0,1775560500
+Paris,Ile-de-France,France,48.867,2.333,Europe/Paris,19.4,66.9,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,14.0,30.18,0.0,52,0,1775561400
+New York,New York,United States of America,40.714,-74.006,America/New_York,10.3,50.5,Overcast,//cdn.weatherapi.com/weather/64x64/day/122.png,5.8,30.09,0.0,46,100,1775561400
+Tokyo,Tokyo,Japan,35.69,139.692,Asia/Tokyo,12.3,54.1,Partly cloudy,//cdn.weatherapi.com/weather/64x64/night/116.png,32.0,29.59,0.0,54,75,1775560500
+Pyrmont,New South Wales,Australia,-33.869,151.194,Australia/Sydney,23.4,74.1,Partly Cloudy,//cdn.weatherapi.com/weather/64x64/night/116.png,9.4,29.85,0.0,78,0,1775560500
+Lapa,Rio de Janeiro,Brazil,-22.917,-43.183,America/Sao_Paulo,24.1,75.4,Partly cloudy,//cdn.weatherapi.com/weather/64x64/day/116.png,6.5,30.0,0.0,89,50,1775560500
+Al Azbakiyah,Al Qahirah,Egypt,30.056,31.244,Africa/Cairo,21.0,69.8,Partly cloudy,//cdn.weatherapi.com/weather/64x64/day/116.png,20.9,30.12,0.0,46,50,1775560500
+Москва,Moscow City,Russia,55.752,37.616,Europe/Moscow,6.4,43.5,Partly cloudy,//cdn.weatherapi.com/weather/64x64/day/116.png,15.1,29.47,0.0,70,62,1775560500
+Beijing,Beijing,China,39.929,116.388,Asia/Shanghai,14.1,57.4,Clear,//cdn.weatherapi.com/weather/64x64/night/113.png,14.4,30.0,0.0,19,0,1775561400
+Cooria,Maharashtra,India,19.083,72.883,Asia/Kolkata,30.2,86.4,Partly cloudy,//cdn.weatherapi.com/weather/64x64/day/116.png,22.7,29.85,0.0,62,50,1775561400
+Berlin,Berlin,Germany,52.517,13.4,Europe/Berlin,9.3,48.7,Partly cloudy,//cdn.weatherapi.com/weather/64x64/day/116.png,18.7,30.3,0.0,57,75,1775560500
+Rome,Lazio,Italy,41.9,12.483,Europe/Rome,20.0,68.0,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,9.7,30.27,0.0,49,0,1775560500
+Madrid,Madrid,Spain,40.4,-3.683,Europe/Madrid,17.1,62.8,Patchy rain nearby,//cdn.weatherapi.com/weather/64x64/day/176.png,20.9,30.12,0.0,48,0,1775560500
+Toronto,Ontario,Canada,43.667,-79.417,America/Toronto,-2.9,26.8,Light freezing rain,//cdn.weatherapi.com/weather/64x64/day/311.png,29.2,30.19,0.0,63,25,1775561400
+Mexico City,The Federal District,Mexico,19.429,-99.128,America/Mexico_City,12.0,53.6,Overcast,//cdn.weatherapi.com/weather/64x64/night/122.png,3.6,30.05,0.0,81,88,1775561400
+Centro,Distrito Federal,Argentina,-34.6,-58.383,America/Argentina/Buenos_Aires,18.3,64.9,Overcast,//cdn.weatherapi.com/weather/64x64/day/122.png,17.3,29.85,0.01,94,100,1775561400
+Chongdong,,South Korea,37.567,126.967,Asia/Seoul,9.1,48.4,Clear,//cdn.weatherapi.com/weather/64x64/night/113.png,15.5,30.03,0.0,53,0,1775561400
+Amphoe Bangkok Noi,Krung Thep,Thailand,13.75,100.483,Asia/Bangkok,38.3,100.9,Sunny,//cdn.weatherapi.com/weather/64x64/night/113.png,20.2,29.71,0.0,29,25,1775561400
+Kucukpazar,Istanbul,Turkey,41.0,28.983,Europe/Istanbul,16.2,61.2,Cloudy,//cdn.weatherapi.com/weather/64x64/day/119.png,9.0,30.06,0.0,63,0,1775561400
+Amsterdam,North Holland,Netherlands,52.374,4.89,Europe/Amsterdam,13.1,55.6,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,16.2,30.36,0.0,44,0,1775561400
+Funfhaus,Wien,Austria,48.183,16.333,Europe/Vienna,14.3,57.7,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,18.4,30.21,0.0,38,0,1775560500
+Prague,Hlavni mesto Praha,Czech Republic,50.083,14.467,Europe/Prague,11.2,52.2,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,19.1,30.27,0.0,35,0,1775560500
+Buda,Budapest,Hungary,47.5,19.033,Europe/Budapest,14.4,57.9,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,24.8,30.18,0.0,24,0,1775561400
+Powisle,,Poland,52.233,21.0,Europe/Warsaw,8.2,46.8,Moderate or heavy snow showers,//cdn.weatherapi.com/weather/64x64/day/371.png,25.9,30.0,0.0,57,75,1775560500
+Mountjoy,Dublin,Ireland,53.35,-6.25,Europe/Dublin,14.3,57.7,Partly cloudy,//cdn.weatherapi.com/weather/64x64/day/116.png,22.0,30.0,0.01,55,75,1775560500
+Oslo,Oslo,Norway,59.917,10.75,Europe/Oslo,9.4,48.9,Partly cloudy,//cdn.weatherapi.com/weather/64x64/day/116.png,11.9,30.33,0.0,71,50,1775560500
+Kampen,Southern Finland,Finland,60.168,24.933,Europe/Helsinki,6.1,43.0,Partly cloudy,//cdn.weatherapi.com/weather/64x64/day/116.png,25.2,29.85,0.01,70,75,1775561400
+Lisbon,Lisboa,Portugal,38.717,-9.133,Europe/Lisbon,12.1,53.8,Light rain,//cdn.weatherapi.com/weather/64x64/day/296.png,28.8,29.91,0.03,88,75,1775560500
+Omonoia,Attica,Greece,37.984,23.728,Europe/Athens,23.1,73.6,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,8.6,30.09,0.0,44,0,1775561400
+Brussels,,Belgium,50.833,4.333,Europe/Brussels,15.4,59.7,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,19.1,30.3,0.0,48,0,1775561400
+Seebach,,Switzerland,47.383,8.55,Europe/Zurich,17.3,63.1,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,3.6,30.24,0.0,59,0,1775560500
+Eaux-Vives,,Switzerland,46.2,6.15,Europe/Zurich,18.2,64.8,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,3.6,30.24,0.0,49,0,1775560500
+Munich,Bayern,Germany,48.15,11.583,Europe/Berlin,16.0,60.8,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,7.6,30.24,0.0,45,0,1775561400
+Hamburg,Hamburg,Germany,53.55,10.0,Europe/Berlin,11.2,52.2,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,13.0,30.36,0.0,58,0,1775560500
+Frankfurt Am Main,Hessen,Germany,50.117,8.683,Europe/Berlin,15.1,59.2,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,9.7,30.3,0.0,41,0,1775560500
+Christianshavn,Hovedstaden,Denmark,55.683,12.583,Europe/Copenhagen,7.9,46.1,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,22.3,30.29,0.0,45,5,1775560500
+Norrmalm,Stockholms Lan,Sweden,59.333,18.067,Europe/Stockholm,5.1,41.2,Light rain,//cdn.weatherapi.com/weather/64x64/day/296.png,24.1,30.15,0.0,81,75,1775561400
+Kuala Lumpur,Kuala Lumpur,Malaysia,3.167,101.7,Asia/Kuala_Lumpur,33.0,91.4,Patchy rain nearby,//cdn.weatherapi.com/weather/64x64/night/176.png,9.0,29.77,0.0,63,25,1775560500
+Windsor Park Estate,,Singapore,1.357,103.825,Asia/Singapore,28.3,82.9,Partly cloudy,//cdn.weatherapi.com/weather/64x64/night/116.png,9.4,29.8,0.0,84,75,1775561400
+Tsim Sha Tsui,,Hong Kong,22.3,114.167,Asia/Hong_Kong,28.2,82.8,Partly cloudy,//cdn.weatherapi.com/weather/64x64/night/116.png,15.8,29.77,0.0,79,50,1775561400
+Chiupokou,T'ai-pei,Taiwan,25.033,121.567,Asia/Taipei,20.0,68.0,Partly cloudy,//cdn.weatherapi.com/weather/64x64/night/116.png,13.3,29.94,0.01,88,75,1775561400
+Kiyabo,Manila,Philippines,14.6,120.983,Asia/Manila,31.4,88.5,Clear,//cdn.weatherapi.com/weather/64x64/night/113.png,13.0,29.8,0.0,66,25,1775561400
+Mentengwadas,Jakarta Raya,Indonesia,-6.213,106.843,Asia/Jakarta,30.4,86.7,Light rain shower,//cdn.weatherapi.com/weather/64x64/night/353.png,13.0,29.77,0.01,75,25,1775560500
+Hanh Thong Tay,,Vietnam,10.833,106.65,Asia/Ho_Chi_Minh,33.0,91.4,Sunny,//cdn.weatherapi.com/weather/64x64/night/113.png,23.0,29.77,0.0,63,0,1775560500
+Tay Ho,,Vietnam,21.067,105.833,Asia/Bangkok,32.0,89.6,Partly cloudy,//cdn.weatherapi.com/weather/64x64/night/116.png,21.6,29.59,0.0,71,50,1775561400
+Santiago,Region Metropolitana,Chile,-33.45,-70.667,America/Santiago,10.2,50.4,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,3.6,30.0,0.0,82,0,1775561400
+Lima,Lima,Peru,-12.05,-77.05,America/Lima,20.8,69.4,Partly Cloudy,//cdn.weatherapi.com/weather/64x64/day/116.png,9.0,29.85,0.0,83,26,1775560500
+El Prado,Cundinamarca,Colombia,4.717,-74.067,America/Bogota,7.9,46.2,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,7.2,30.05,0.0,91,25,1775561400
+Caracas,Distrito Federal,Venezuela,10.5,-66.917,America/Caracas,19.5,67.1,Mist,//cdn.weatherapi.com/weather/64x64/day/143.png,7.6,29.94,0.0,94,64,1775561400
+Montreal,Quebec,Canada,45.5,-73.583,America/Toronto,-4.0,24.8,Overcast,//cdn.weatherapi.com/weather/64x64/day/122.png,15.8,30.12,0.0,54,100,1775561400
+Vancouver,British Columbia,Canada,49.25,-123.133,America/Vancouver,7.0,44.6,Clear,//cdn.weatherapi.com/weather/64x64/night/113.png,34.6,30.0,0.0,70,25,1775561400
+Calgary,Alberta,Canada,51.083,-114.083,America/Edmonton,0.1,32.2,Clear,//cdn.weatherapi.com/weather/64x64/night/113.png,4.7,29.52,0.0,86,25,1775561400
+Edmonton,Alberta,Canada,53.55,-113.5,America/Edmonton,0.5,32.9,Overcast,//cdn.weatherapi.com/weather/64x64/night/122.png,13.3,29.65,0.0,72,0,1775560500
+Ottawa,Ontario,Canada,45.417,-75.7,America/Toronto,-4.0,24.8,Light snow,//cdn.weatherapi.com/weather/64x64/day/326.png,16.2,30.08,0.0,74,100,1775560500
+Place Royal,Quebec,Canada,46.817,-71.2,America/Toronto,-9.0,15.8,Partly cloudy,//cdn.weatherapi.com/weather/64x64/day/116.png,10.1,30.16,0.0,57,50,1775561400
+Saint Boniface,Manitoba,Canada,49.9,-97.1,America/Winnipeg,-7.9,17.8,Clear,//cdn.weatherapi.com/weather/64x64/night/113.png,9.4,30.4,0.0,92,0,1775561400
+Halifax,Nova Scotia,Canada,44.65,-63.6,America/Halifax,-0.1,31.8,Sunny,//cdn.weatherapi.com/weather/64x64/day/113.png,16.2,30.04,0.0,74,0,1775560500
+Saint John's,Newfoundland and Labrador,Canada,47.55,-52.667,America/St_Johns,-0.8,30.6,Partly cloudy,//cdn.weatherapi.com/weather/64x64/day/116.png,37.8,29.65,0.0,80,75,1775561400
+Regina,Saskatchewan,Canada,50.45,-104.617,America/Regina,-1.6,29.1,Overcast,//cdn.weatherapi.com/weather/64x64/night/122.png,33.8,29.96,0.0,63,100,1775560500
+Saskatoon,Saskatchewan,Canada,52.133,-106.667,America/Regina,-1.8,28.8,Partly cloudy,//cdn.weatherapi.com/weather/64x64/night/116.png,31.0,29.85,0.0,80,75,1775561400
+Thunder Bay,Ontario,Canada,48.4,-89.233,America/Toronto,-16.8,1.8,Partly cloudy,//cdn.weatherapi.com/weather/64x64/day/116.png,8.3,30.44,0.0,84,50,1775561400
+Sudbury,Ontario,Canada,46.5,-80.967,America/Toronto,-14.7,5.5,Partly cloudy,//cdn.weatherapi.com/weather/64x64/day/116.png,7.6,30.26,0.0,71,50,1775560500
+Kingston,Ontario,Canada,44.233,-76.483,America/Toronto,-0.6,30.9,Patchy snow possible,//cdn.weatherapi.com/weather/64x64/day/179.png,25.6,30.02,0.0,92,60,1775560500

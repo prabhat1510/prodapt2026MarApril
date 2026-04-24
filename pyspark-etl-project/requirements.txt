@@ -1,0 +1,7 @@
+pyspark
+pandas
+openpyxl
+sqlalchemy
+psycopg2-binary
+fastparquet
+python-dotenv

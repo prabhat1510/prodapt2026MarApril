@@ -1,6 +1,7 @@
 #ENTERPRISE ETL (AIRFLOW STYLE PIPELINE)
 #Schedule & orchestrate ETL jobs
-
+#Airflow is an open-source workflow management tool which 
+#uses DAG (Directed Acyclic Graph) to organise, schedule and monitor data flow effortlessly.
 #Airflow DAG Example
 
 from airflow import DAG
