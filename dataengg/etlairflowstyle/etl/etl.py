@@ -98,6 +98,37 @@ def get_weather_dataset():
         city_df = flat_response[['location.name', 'location.region', 'location.country', 'location.lat', 'location.lon', 'location.tz_id', 'current.temp_c', 'current.temp_f', 'current.condition.text', 'current.condition.icon', 'current.wind_kph', 'current.pressure_in', 'current.precip_in', 'current.humidity', 'current.cloud', 'current.last_updated_epoch']]
         weather_df = pd.concat([weather_df, city_df], ignore_index=True)
 
+CITIES = [
+    {"name": "London", "lat_long": "51.5074,-0.1278"},
+    {"name": "Paris", "lat_long": "48.8566,2.3522"},
+    {"name": "New York", "lat_long": "40.7128,-74.0060"}
+]
+
+# Weather API Calls
+def get_weather_dataset():
+    weather_df = pd.DataFrame()
+    for city in CITIES:
+        print(f"Fetching Results for City - {city['name']} :: ")
+        querystring = {"q": city['lat_long']}
+        
+        try:
+            response = requests.get(url, headers=headers, params=querystring)
+            response.raise_for_status()
+            data = response.json()
+            flat_response = pd.json_normalize(data)
+            
+            city_df = flat_response[[
+                'location.name', 'location.region', 'location.country', 
+                'location.lat', 'location.lon', 'location.tz_id', 
+                'current.temp_c', 'current.temp_f', 'current.condition.text', 
+                'current.condition.icon', 'current.wind_kph', 'current.pressure_in', 
+                'current.precip_in', 'current.humidity', 'current.cloud', 
+                'current.last_updated_epoch'
+            ]]
+            weather_df = pd.concat([weather_df, city_df], ignore_index=True)
+        except Exception as e:
+            logging.error(f"Error fetching weather for {city['name']}: {e}")
+
     print(len(weather_df))
     weather_df.to_csv('Weather_DF.csv', index=False)
     logging.info("Weather DF generated!")
@@ -119,7 +150,9 @@ print("Creating Table if not exists...")
 db.execute_query(config.weather_create_query)
 
 temp_df = pd.read_csv('Weather_DF.csv')
+
 temp_df =temp_df.where(pd.notnull(temp_df), None)
+
 print(f"Loading {len(temp_df)} records...")
 
 for idx, row in temp_df.iterrows(): 

@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     DB_USER: str = "root"
     DB_PASS: str = "password"
     DB_PORT: int = 3306
-    
+
     weather_create_query: str = """
 CREATE TABLE IF NOT EXISTS weather (
             name VARCHAR(255) NOT NULL,
@@ -43,6 +43,34 @@ INSERT INTO weather (name, region, country, lat, lon, timezone, temp_c, temp_f,
     cloud, last_updated_epoch) 
 VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
 """
+    # SQL Queries
+    weather_create_query: str = """
+    CREATE TABLE IF NOT EXISTS weather_data (
+        city_name VARCHAR(255),
+        region VARCHAR(255),
+        country VARCHAR(255),
+        lat DECIMAL(15, 10),
+        lon DECIMAL(15, 10),
+        tz_id VARCHAR(100),
+        temp_c DECIMAL(10, 2),
+        temp_f DECIMAL(10, 2),
+        condition_text VARCHAR(255),
+        condition_icon VARCHAR(255),
+        wind_kph DECIMAL(10, 2),
+        pressure_in DECIMAL(10, 2),
+        precip_in DECIMAL(10, 2),
+        humidity INT,
+        cloud INT,
+        last_updated_epoch BIGINT
+    )
+    """
+    weather_insert_query: str = """
+    INSERT INTO weather_data (
+        city_name, region, country, lat, lon, tz_id, temp_c, temp_f, 
+        condition_text, condition_icon, wind_kph, pressure_in, 
+        precip_in, humidity, cloud, last_updated_epoch
+    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    """
 
     model_config = SettingsConfigDict(env_file=".env", extra="allow")
 
